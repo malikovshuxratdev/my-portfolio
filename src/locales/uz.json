@@ -1,0 +1,139 @@
+{
+    "nav": {
+        "experience": "Tajriba",
+        "projects": "Loyihalar",
+        "skills": "Ko'nikmalar",
+        "contact": "Aloqa",
+        "resume": "Rezyume",
+        "menuOpen": "Menyuni ochish",
+        "menuClose": "Menyuni yopish",
+        "theme": "Mavzuni almashtirish",
+        "language": "Tilni almashtirish"
+    },
+    "hero": {
+        "eyebrow": "Frontend dasturchi · Toshkent, O'zbekiston",
+        "available": "Yangi takliflarga ochiqman",
+        "title1": "O'zbekistonning milliy ilmiy",
+        "title2": "platformalari frontendini quraman.",
+        "lead": "React, Next.js, React Native va TypeScript bo'yicha {{years}} yillik tijoriy tajribaga ega frontend dasturchiman. Production'gacha bo'lgan butun yo'lga javob beraman: Figma'dan komponent arxitekturasi, API integratsiyasi, SSR va SEO, so'ngra Docker, nginx va CI/CD orqali deploy.",
+        "ai": "Claude Code va MCP bilan AI-yordamli dasturlash — kundalik ish jarayonimning bir qismi.",
+        "ctaProjects": "Loyihalarni ko'rish",
+        "ctaResume": "Rezyumeni yuklab olish",
+        "stats": {
+            "years": "yillik tajriba",
+            "platforms": "production'dagi platforma",
+            "companies": "kompaniya"
+        },
+        "photoRole": "Frontend dasturchi",
+        "photoOrg": "Innovatsion rivojlanish agentligi"
+    },
+    "sections": {
+        "experience": { "eyebrow": "Tajriba", "title": "Qayerda ishlaganman", "lead": "To'rt yil: davlat innovatsiya agentligi, dasturiy ta'minot studiyasi va e-commerce mahsulot kompaniyasi." },
+        "projects": { "eyebrow": "Tanlangan ishlar", "title": "Production'dagi platformalar", "lead": "O'zbekiston ilm-fan va innovatsiya ekotizimining ochiq portallari, shaxsiy kabinetlari va admin panellari — barchasi bugun ishlamoqda.", "note": "Bundan tashqari, Next.js'dagi ilmiy jurnallar platformasi va har bir portal ortidagi ichki admin panellar.", "visit": "Saytga o'tish", "live": "Jonli" },
+        "skills": { "eyebrow": "Vositalar", "title": "Nimalar bilan ishlayman", "lead": "TypeScript va React'dan Docker va CI/CD'gacha — har bir relizning ortidagi stek." },
+        "education": { "eyebrow": "Ma'lumot", "title": "Ta'lim va tillar" },
+        "contact": { "eyebrow": "Aloqa", "title": "Keling, birga quramiz.", "lead": "Loyiha, ish taklifi yoki shunchaki savolingiz bormi? Yozing — bir kun ichida javob beraman." }
+    },
+    "experience": {
+        "present": "Hozir",
+        "duration": { "years_one": "{{count}} yil", "years_other": "{{count}} yil", "months_one": "{{count}} oy", "months_other": "{{count}} oy" },
+        "stack": "Stek",
+        "showMore": "Batafsil",
+        "showLess": "Yopish",
+        "ida": {
+            "role": "Frontend dasturchi",
+            "type": "To'liq stavka · Ofisda",
+            "summary": "Oliy ta'lim, fan va innovatsiyalar vazirligi huzuridagi davlat agentligi. Milliy ilm-fan va innovatsiya ekotizimi (ilmiy.uz) frontendi: tadqiqotchilar, universitetlar va davlat organlari uchun ochiq portallar, shaxsiy kabinetlar va admin panellar.",
+            "bullets": [
+                "React, Next.js va TypeScript'da 9 ta production platformaning frontendini quraman va qo'llab-quvvatlayman — loyiha sozlash va arxitekturadan relizgacha.",
+                "Figma dizaynlarini moslashuvchan, a11y va ko'p tilli interfeyslarga aylantiraman; shadcn/ui, Radix UI, Ant Design va Tailwind CSS asosida dizayn tokenlari bilan umumiy komponent kutubxonalari qurdim — yangi sahifalar tayyor bloklardan yig'iladi.",
+                "Ma'lumotlar qatlamini TanStack Query, Redux Toolkit, Zustand va Axios'da loyihalayman: Swagger/OpenAPI'dan tiplangan API mijozlari, JWT refresh interceptorlar, kesh va invalidatsiya, paginatsiya, optimistik yangilanishlar, yagona xatolik boshqaruvi.",
+                "React Hook Form va Zod/Yup bilan murakkab formalar (ko'p bosqichli oqimlar, dinamik maydonlar, qoralamani saqlash, saqlanmagan o'zgarishlar himoyasi) va Recharts hamda Ant Design Charts bilan analitik dashboardlar quraman.",
+                "SSR va SEO: Next.js App Router va Express'dagi Vite SSR, metadata va Open Graph, sitemap, Google Analytics, tez birinchi yuklanish uchun code splitting va lazy loading.",
+                "Deploy'ga to'liq javob beraman: Docker va Docker Compose, nginx reverse proxy, PM2, GitHub Actions (yopiq tarmoqdagi self-hosted runnerlar) va GitLab CI, Ubuntu serverlarda alohida dev, staging va production muhitlari.",
+                "AI-yordamli ish jarayonini joriy qildim: loyiha qoidalari, skill'lar hamda Figma va Linear uchun MCP integratsiyalari bilan Claude Code — triaj, rejalashtirish, amalga oshirish va review bosqichlarida; AI matnini aniqlash kabi AI funksiyalari uchun UI qurdim."
+            ]
+        },
+        "softwhere": {
+            "role": "React / React Native dasturchi",
+            "type": "To'liq stavka · Ofisda",
+            "summary": "Dasturiy ta'minot kompaniyasi: noldan qurilgan veb va mobil ilovalar hamda ishlab chiqilayotgan mahsulotlar uchun yangi funksiyalar.",
+            "bullets": [
+                "React'da veb ilovalar va React Native hamda Expo'da kross-platforma mobil ilovalarni bo'sh repozitoriydan production relizgacha ishlab chiqdim.",
+                "React Query, Redux Toolkit va MobX yordamida backend API bilan CRUD funksiyalarni boshidan oxirigacha yetkazdim; WebSocket orqali real vaqt yangilanishlarini qo'shdim.",
+                "Backend jamoasi bilan API shartnomasini barqarorlashtirdim — frontend integratsiyasi tezroq va bashorat qilinadigan bo'ldi.",
+                "Dizayn, funksionallik va unumdorlik bo'yicha kritik xatolarni tuzatdim va har bir relizni sinovdan o'tkazdim — production'ga yo'l qisqardi."
+            ]
+        },
+        "empire": {
+            "role": "React / React Native dasturchi",
+            "type": "To'liq stavka · Ofisda",
+            "summary": "E-commerce mahsulotlar: veb, iOS va Android uchun onlayn do'kon ilovalari.",
+            "bullets": [
+                "React Native va Expo'da iOS va Android uchun onlayn do'kon ilovasini ishlab chiqdim: katalog, qidiruv, savat va checkout oqimlari.",
+                "Kod bazasi toza va qo'llab-quvvatlanadigan bo'lishi uchun loyiha tuzilmasini loyihaladim va ESLint qoidalarini sozladim.",
+                "React, Redux Toolkit va MobX bilan qayta ishlatiladigan UI komponentlar va holat boshqaruvini qurdim.",
+                "Yangi funksiyalarni taklif qildim, rejalashtirish va texnik qarorlarda ishtirok etdim, foydalanuvchilar uchun xaridni silliq saqlash uchun xatolarni bartaraf etdim."
+            ]
+        }
+    },
+    "projects": {
+        "kinds": { "web": "Veb platforma", "ssr": "SSR · SEO", "sso": "Yagona kirish", "ai": "AI aniqlash", "event": "Tadbir platformasi", "booking": "Onlayn bron" },
+        "slib": { "title": "Milliy ilmiy elektron kutubxona", "description": "360 ta jurnal, 20 ming muallif va 38 ming maqola bo'yicha qidiruv, ochiq maqolalarni o'qish, maqola topshirish va tahririyat jarayonlari. SEO va tez yuklanish uchun Express'dagi Vite SSR bilan server tomonda render qilinadi." },
+        "anticopy": { "title": "Plagiat va AI matnini aniqlash", "description": "Hujjatni yuklaydi va o'zlashtirilgan parchalar hamda AI yaratgan matnni originallik ko'rsatkichlari bilan ajratib ko'rsatadi. AI-aniqlash hisoboti ko'rinishi bilan butun UI'ni Next.js, Radix va Tailwind'da qurdim." },
+        "id": { "title": "Ilmiy ekotizim uchun yagona kirish", "description": "Tadqiqotchilar uchun identifikatsiya tizimi: barcha ilmiy.uz platformalari uchun bitta akkaunt, bitta profil va bitta kirish — OAuth 2.0 / JWT sessiyalari va shaxsiy kabinet bilan." },
+        "innoweek": { "title": "InnoWeek innovatsiya haftaligi", "description": "Milliy innovatsiya haftaligining ochiq sayti: dastur, ro'yxatdan o'tish, yangiliklar, galereya, tanlovlar va InnoMarket — jonli hisoblagich va ko'p tilli kontent bilan." },
+        "tripogram": { "title": "Tur qidirish va onlayn bron", "description": "Sayohat platformasi: yo'nalish, sana va sayohatchilar soni bo'yicha turlarni qidirish, agentliklar paketlarini solishtirish va onlayn bron qilish. SEO uchun server tomonda render." },
+        "etaqriz": { "title": "Elektron taqriz", "description": "Mualliflarni malakali taqrizchilar bilan bog'laydigan platforma: ishni topshiring, ekspertlar taqrizidan o'tkazing, holatni kuzating va tasdiqlangan xulosani oling." },
+        "internship": { "title": "Xorijiy ilmiy stajirovkalar", "description": "Xalqaro ilmiy stajirovkalarni tashkil etishning yagona elektron tizimi: tanlovlar, arizalar, saralash va tadqiqotchilar hamda universitetlar uchun hisobot." },
+        "akadem": { "title": "Akademik harakatchanlik dasturi", "description": "Ilmiy anjumanlar, stajirovkalar va qo'shma loyihalar portali: ishtirok uchun tanlovlar, arizalar hamda saralash va arizachilar bo'yicha ochiq statistika." }
+    },
+    "skills": {
+        "languages": "Tillar",
+        "web": "Veb",
+        "mobile": "Mobil",
+        "ui": "UI kutubxonalar",
+        "state": "Holat va API",
+        "forms": "Formalar, grafiklar, i18n",
+        "seo": "SEO va tezlik",
+        "architecture": "Arxitektura",
+        "devops": "DevOps",
+        "backend": "Backend",
+        "ai": "AI muhandisligi",
+        "tools": "Vositalar"
+    },
+    "education": {
+        "degree": "Bakalavr, Elektr muhandisligi (Tarmoqlar)",
+        "school": "Toshkent davlat transport universiteti",
+        "years": "2019 – 2023",
+        "languagesTitle": "Tillar",
+        "languages": [
+            { "name": "O'zbek", "level": "Ona tili" },
+            { "name": "Ingliz", "level": "Upper-Intermediate (B2)" },
+            { "name": "Rus", "level": "Boshlang'ich" }
+        ]
+    },
+    "contact": {
+        "email": "Email",
+        "phone": "Telefon",
+        "telegram": "Telegram",
+        "github": "GitHub",
+        "location": "Manzil",
+        "copy": "Nusxalash",
+        "copied": "Nusxalandi!",
+        "form": {
+            "name": "Ismingiz",
+            "email": "Emailingiz",
+            "message": "Xabar",
+            "placeholderName": "Ism Familiya",
+            "placeholderEmail": "siz@kompaniya.uz",
+            "placeholderMessage": "Loyiha yoki ish taklifi haqida yozing…",
+            "send": "Xabar yuborish",
+            "hint": "Xabar tayyor holda pochta ilovangizda ochiladi."
+        }
+    },
+    "footer": {
+        "rights": "© {{year}} Shukhrat Malikov. React, Vite va Tailwind CSS'da qurilgan.",
+        "top": "Yuqoriga"
+    }
+}

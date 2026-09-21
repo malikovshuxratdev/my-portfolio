@@ -1,0 +1,45 @@
+export const PROFILE = {
+    name: 'Shukhrat Malikov',
+    firstName: 'Shukhrat',
+    email: 'malikovsh.developer@gmail.com',
+    phone: '+998 77 026 32 26',
+    phoneHref: 'tel:+998770263226',
+    telegram: 'https://t.me/malikov_shuxrat',
+    telegramHandle: '@malikov_shuxrat',
+    github: 'https://github.com/malikovshuxratdev',
+    githubHandle: 'malikovshuxratdev',
+    location: 'Tashkent, Uzbekistan',
+    resume: '/Shukhrat_Malikov_Resume.pdf',
+    yearsOfExperience: 4,
+    platformsInProduction: 9,
+    companies: 3,
+} as const;
+
+export const NAV_ITEMS = [
+    { id: 'experience', key: 'nav.experience' },
+    { id: 'projects', key: 'nav.projects' },
+    { id: 'skills', key: 'nav.skills' },
+    { id: 'contact', key: 'nav.contact' },
+] as const;
+
+export const MARQUEE = [
+    'React',
+    'Next.js',
+    'React Native',
+    'TypeScript',
+    'Expo',
+    'Tailwind CSS',
+    'shadcn/ui',
+    'Ant Design',
+    'TanStack Query',
+    'Redux Toolkit',
+    'Zustand',
+    'React Hook Form',
+    'Zod',
+    'Vite SSR',
+    'Docker',
+    'nginx',
+    'GitHub Actions',
+    'Claude Code',
+    'MCP',
+] as const;

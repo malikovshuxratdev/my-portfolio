@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" class="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Shukhrat Malikov — Frontend Developer</title>
+        <meta
+            name="description"
+            content="Frontend developer with 4 years of commercial experience in React, Next.js, React Native and TypeScript. Building the frontends of Uzbekistan's national science and innovation platforms."
+        />
+        <meta name="author" content="Shukhrat Malikov" />
+        <meta name="theme-color" content="#0a0c11" media="(prefers-color-scheme: dark)" />
+        <meta name="theme-color" content="#f6f4ee" media="(prefers-color-scheme: light)" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="canonical" href="https://malikovsh.vercel.app/" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Shukhrat Malikov — Frontend Developer" />
+        <meta
+            property="og:description"
+            content="React, Next.js, React Native and TypeScript. 9 production platforms, full path from Figma to Docker and CI/CD."
+        />
+        <meta property="og:image" content="https://malikovsh.vercel.app/og.png" />
+        <meta property="og:url" content="https://malikovsh.vercel.app/" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Shukhrat Malikov — Frontend Developer" />
+        <meta name="twitter:image" content="https://malikovsh.vercel.app/og.png" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Onest:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+        <script>
+            // Apply the saved theme before first paint to avoid a flash.
+            (function () {
+                try {
+                    var t = localStorage.getItem('theme');
+                    var dark = t ? t === 'dark' : true;
+                    document.documentElement.classList.toggle('dark', dark);
+                } catch (e) {}
+            })();
+        </script>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Shukhrat Malikov",
+                "jobTitle": "Frontend Developer",
+                "email": "mailto:malikovsh.developer@gmail.com",
+                "telephone": "+998770263226",
+                "url": "https://malikovsh.vercel.app/",
+                "address": { "@type": "PostalAddress", "addressLocality": "Tashkent", "addressCountry": "UZ" },
+                "sameAs": ["https://github.com/malikovshuxratdev", "https://t.me/malikov_shuxrat"],
+                "knowsAbout": ["React", "Next.js", "React Native", "TypeScript"]
+            }
+        </script>
+    </head>
+    <body>
+        <div id="root"></div>
+        <script type="module" src="/src/main.tsx"></script>
+    </body>
+</html>

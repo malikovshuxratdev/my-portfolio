@@ -1,0 +1,139 @@
+{
+    "nav": {
+        "experience": "Experience",
+        "projects": "Projects",
+        "skills": "Skills",
+        "contact": "Contact",
+        "resume": "Resume",
+        "menuOpen": "Open menu",
+        "menuClose": "Close menu",
+        "theme": "Toggle theme",
+        "language": "Switch language"
+    },
+    "hero": {
+        "eyebrow": "Frontend Developer · Tashkent, Uzbekistan",
+        "available": "Open to new opportunities",
+        "title1": "I build the frontends of",
+        "title2": "Uzbekistan's national science platforms.",
+        "lead": "Frontend developer with {{years}} years of commercial experience in React, Next.js, React Native and TypeScript. I own the full path to production: component architecture from Figma, API integration, SSR and SEO, then deployment with Docker, nginx and CI/CD.",
+        "ai": "AI-assisted engineering with Claude Code and MCP is part of my daily workflow.",
+        "ctaProjects": "View projects",
+        "ctaResume": "Download resume",
+        "stats": {
+            "years": "years of experience",
+            "platforms": "platforms in production",
+            "companies": "companies"
+        },
+        "photoRole": "Frontend Developer",
+        "photoOrg": "Innovation Development Agency"
+    },
+    "sections": {
+        "experience": { "eyebrow": "Experience", "title": "Where I've worked", "lead": "Four years across a government innovation agency, a software studio and an e-commerce product company." },
+        "projects": { "eyebrow": "Selected work", "title": "Platforms in production", "lead": "Public portals, personal cabinets and admin panels of Uzbekistan's science and innovation ecosystem — all live today.", "note": "Plus a scientific journals platform on Next.js and the internal admin panels behind each portal.", "visit": "Visit site", "live": "Live" },
+        "skills": { "eyebrow": "Toolkit", "title": "What I work with", "lead": "From TypeScript and React to Docker and CI/CD — the stack behind every release." },
+        "education": { "eyebrow": "Background", "title": "Education & languages" },
+        "contact": { "eyebrow": "Contact", "title": "Let's build something.", "lead": "Have a project, a role or just a question? Write to me — I answer within a day." }
+    },
+    "experience": {
+        "present": "Present",
+        "duration": { "years_one": "{{count}} yr", "years_other": "{{count}} yrs", "months_one": "{{count}} mo", "months_other": "{{count}} mos" },
+        "stack": "Stack",
+        "showMore": "Show details",
+        "showLess": "Hide details",
+        "ida": {
+            "role": "Frontend Developer",
+            "type": "Full-time · On-site",
+            "summary": "Government agency under the Ministry of Higher Education, Science and Innovation. Frontend of the national science and innovation ecosystem (ilmiy.uz): public portals, personal cabinets and admin panels for researchers, universities and state bodies.",
+            "bullets": [
+                "Build and maintain the frontends of 9 production platforms with React, Next.js and TypeScript, from project setup and architecture to release and support.",
+                "Turn Figma designs into responsive, accessible, multilingual interfaces; built shared component libraries on shadcn/ui, Radix UI, Ant Design and Tailwind CSS with design tokens, so new pages are assembled from ready blocks.",
+                "Design the data layer on TanStack Query, Redux Toolkit, Zustand and Axios: typed API clients from Swagger/OpenAPI, JWT refresh interceptors, caching and invalidation, pagination, optimistic updates, unified error handling.",
+                "Build complex forms with React Hook Form and Zod/Yup (multi-step flows, dynamic fields, draft persistence, unsaved-changes guards) and analytics dashboards with Recharts and Ant Design Charts.",
+                "Deliver SSR and SEO: Next.js App Router and Vite SSR on Express, metadata and Open Graph, sitemaps, Google Analytics, code splitting and lazy loading for a fast first load.",
+                "Own deployment: Docker and Docker Compose, nginx reverse proxy, PM2, CI/CD in GitHub Actions (self-hosted runners inside a closed network) and GitLab CI, separate dev, staging and production environments on Ubuntu servers.",
+                "Introduced an AI-assisted workflow: Claude Code with project rules, skills and MCP integrations for Figma and Linear across triage, planning, implementation and review; built the UI for AI features such as AI-generated text detection."
+            ]
+        },
+        "softwhere": {
+            "role": "React / React Native Developer",
+            "type": "Full-time · On-site",
+            "summary": "Software company: web and mobile apps built from scratch, plus new features for products in development.",
+            "bullets": [
+                "Developed web apps with React and cross-platform mobile apps with React Native and Expo, from an empty repository to a production release.",
+                "Delivered CRUD features end to end against the backend API using React Query, Redux Toolkit and MobX; added real-time updates over WebSocket.",
+                "Worked with the backend team to stabilise the API contract, which made frontend integration faster and more predictable.",
+                "Fixed critical design, functionality and performance bugs and tested every release, shortening the path to production."
+            ]
+        },
+        "empire": {
+            "role": "React / React Native Developer",
+            "type": "Full-time · On-site",
+            "summary": "E-commerce products: online store applications for web, iOS and Android.",
+            "bullets": [
+                "Developed an online store application for iOS and Android with React Native and Expo: catalogue, search, cart and checkout flows.",
+                "Designed the project structure and set up ESLint rules to keep the codebase clean and maintainable.",
+                "Built reusable UI components and state management with React, Redux Toolkit and MobX.",
+                "Proposed new features, took part in planning and technical decisions, and resolved bugs to keep shopping smooth for users."
+            ]
+        }
+    },
+    "projects": {
+        "kinds": { "web": "Web platform", "ssr": "SSR · SEO", "sso": "Single sign-on", "ai": "AI detection", "event": "Event platform", "booking": "Online booking" },
+        "slib": { "title": "National scientific e-library", "description": "Search across 360 journals, 20k authors and 38k articles with open-access reading, article submission and editorial workflows. Server-side rendered with Vite SSR on Express for SEO and a fast first load." },
+        "anticopy": { "title": "Plagiarism & AI-text detection", "description": "Uploads a document and highlights borrowed passages and AI-generated text with originality scores. Built the whole UI including the AI-detection report view, on Next.js with Radix and Tailwind." },
+        "id": { "title": "Single sign-on for the science ecosystem", "description": "Identification system for researchers: one account, one profile and one login across every ilmiy.uz platform, with OAuth 2.0 / JWT sessions and a personal cabinet." },
+        "innoweek": { "title": "InnoWeek innovation week", "description": "Public site of the national innovation week: programme, registration, news, gallery, contests and InnoMarket, with a live countdown and multilingual content." },
+        "tripogram": { "title": "Tour search & online booking", "description": "Consumer travel platform: search tours by destination, dates and travellers, compare packages from agencies and book online. Server-rendered for SEO." },
+        "etaqriz": { "title": "Electronic peer review", "description": "Platform that connects authors with qualified reviewers: submit a work, get it reviewed by experts, track status and receive a verified conclusion." },
+        "internship": { "title": "Research internships abroad", "description": "Unified electronic system for organising international scientific internships: calls, applications, selection and reporting for researchers and universities." },
+        "akadem": { "title": "Academic mobility programme", "description": "Portal for research conferences, internships and joint projects: calls for participation, applications and public statistics on selections and applicants." }
+    },
+    "skills": {
+        "languages": "Languages",
+        "web": "Web",
+        "mobile": "Mobile",
+        "ui": "UI libraries",
+        "state": "State & API",
+        "forms": "Forms, charts, i18n",
+        "seo": "SEO & speed",
+        "architecture": "Architecture",
+        "devops": "DevOps",
+        "backend": "Backend",
+        "ai": "AI engineering",
+        "tools": "Tools"
+    },
+    "education": {
+        "degree": "Bachelor's degree, Electrical Engineering (Networks)",
+        "school": "Tashkent State Transport University",
+        "years": "2019 – 2023",
+        "languagesTitle": "Languages",
+        "languages": [
+            { "name": "Uzbek", "level": "Native" },
+            { "name": "English", "level": "Upper-Intermediate (B2)" },
+            { "name": "Russian", "level": "Basic" }
+        ]
+    },
+    "contact": {
+        "email": "Email",
+        "phone": "Phone",
+        "telegram": "Telegram",
+        "github": "GitHub",
+        "location": "Location",
+        "copy": "Copy",
+        "copied": "Copied!",
+        "form": {
+            "name": "Your name",
+            "email": "Your email",
+            "message": "Message",
+            "placeholderName": "John Doe",
+            "placeholderEmail": "you@company.com",
+            "placeholderMessage": "Tell me about the project or role…",
+            "send": "Send message",
+            "hint": "Opens your mail client with the message pre-filled."
+        }
+    },
+    "footer": {
+        "rights": "© {{year}} Shukhrat Malikov. Built with React, Vite and Tailwind CSS.",
+        "top": "Back to top"
+    }
+}
