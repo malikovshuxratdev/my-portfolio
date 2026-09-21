@@ -6,6 +6,9 @@ import { Reveal } from './Reveal';
 function Card({ project, index }: { project: ArchiveProject; index: number }) {
     const { t } = useTranslation();
     const live = Boolean(project.url);
+    const platform = t(`archive.platform.${project.platform}`);
+    // Don't print "iOS · Android · iOS · Android" when the two say the same thing.
+    const meta = platform === project.label ? project.label : `${project.label} · ${platform}`;
 
     const inner = (
         <>
@@ -25,9 +28,7 @@ function Card({ project, index }: { project: ArchiveProject; index: number }) {
             <div className="mt-3.5 flex items-start justify-between gap-3">
                 <div className="min-w-0">
                     <h3 className="truncate font-display text-base font-semibold tracking-tight">{project.name}</h3>
-                    <p className="mt-0.5 truncate font-mono text-[11px] text-muted">
-                        {project.label} · {t(`archive.platform.${project.platform}`)}
-                    </p>
+                    <p className="mt-0.5 truncate font-mono text-[11px] text-muted">{meta}</p>
                 </div>
                 {live ? (
                     <span className="mt-0.5 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-line text-muted transition-all duration-300 group-hover:border-accent group-hover:bg-accent group-hover:text-accent-fg">

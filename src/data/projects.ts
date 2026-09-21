@@ -154,7 +154,7 @@ export const ARCHIVE: ArchiveProject[] = [
     {
         id: 'birmakonApp',
         name: 'Birmakon',
-        label: 'iOS · Android',
+        label: 'Mobile app',
         image: '/projects/birmakon-app.webp',
         platform: 'mobile',
         stack: ['React Native', 'React Navigation', 'MobX', 'Axios'],
@@ -162,7 +162,7 @@ export const ARCHIVE: ArchiveProject[] = [
     {
         id: 'modern',
         name: 'Modern Shop',
-        label: 'iOS · Android',
+        label: 'Mobile app',
         image: '/projects/modern.webp',
         platform: 'mobile',
         stack: ['Expo', 'React Native', 'MobX', 'WebSocket', 'TypeScript'],
