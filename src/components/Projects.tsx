@@ -2,6 +2,7 @@ import { ArrowUpRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { PROJECTS, type Project } from '@/data/projects';
 import { cn } from '@/lib/cn';
+import { Archive } from './Archive';
 import { Reveal } from './Reveal';
 import { SectionHeading } from './SectionHeading';
 
@@ -16,9 +17,9 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
                 className="group block h-full overflow-hidden rounded-2xl border border-line bg-card transition-all duration-500 ease-out-expo hover:-translate-y-1 hover:border-line-strong hover:shadow-[0_30px_60px_-30px_rgba(0,0,0,0.5)]"
             >
                 {/* Browser frame */}
-                <div className="border-b border-line bg-bg-2 px-4 py-2.5">
+                <div className="border-b border-line bg-bg-2 px-3 py-2.5 sm:px-4">
                     <div className="flex items-center gap-3">
-                        <div className="flex gap-1.5" aria-hidden>
+                        <div className="hidden gap-1.5 sm:flex" aria-hidden>
                             <span className="h-2.5 w-2.5 rounded-full bg-line-strong" />
                             <span className="h-2.5 w-2.5 rounded-full bg-line-strong" />
                             <span className="h-2.5 w-2.5 rounded-full bg-line-strong" />
@@ -46,17 +47,17 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
                     <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-card/60 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
                 </div>
 
-                <div className="p-5 sm:p-6">
+                <div className="p-4 sm:p-6">
                     <div className="flex items-start justify-between gap-4">
                         <div>
-                            <h3 className="font-display text-xl font-semibold tracking-tight sm:text-2xl">{project.name}</h3>
+                            <h3 className="font-display text-lg font-semibold tracking-tight sm:text-2xl">{project.name}</h3>
                             <p className="mt-1 text-sm font-medium text-accent">{t(`projects.${project.id}.title`)}</p>
                         </div>
                         <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-line text-muted transition-all duration-300 group-hover:border-accent group-hover:bg-accent group-hover:text-accent-fg">
                             <ArrowUpRight size={16} />
                         </span>
                     </div>
-                    <p className="mt-3 text-sm leading-relaxed text-muted">{t(`projects.${project.id}.description`)}</p>
+                    <p className="mt-3 text-[13px] leading-relaxed text-muted sm:text-sm">{t(`projects.${project.id}.description`)}</p>
                     <ul className="mt-4 flex flex-wrap gap-1.5">
                         {project.stack.map((s) => (
                             <li key={s} className="chip">
@@ -81,7 +82,7 @@ export function Projects() {
                     title={t('sections.projects.title')}
                     lead={t('sections.projects.lead')}
                 />
-                <div className="grid gap-5 lg:grid-cols-2 lg:gap-6">
+                <div className="grid gap-4 sm:gap-5 lg:grid-cols-2 lg:gap-6">
                     {PROJECTS.map((p, i) => (
                         <ProjectCard key={p.id} project={p} index={i} />
                     ))}
@@ -89,6 +90,8 @@ export function Projects() {
                 <Reveal>
                     <p className="mt-8 font-mono text-xs text-muted">↳ {t('sections.projects.note')}</p>
                 </Reveal>
+
+                <Archive />
             </div>
         </section>
     );

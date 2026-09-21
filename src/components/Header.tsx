@@ -1,4 +1,4 @@
-import { FileDown, Languages, Menu, Moon, Sun, X } from 'lucide-react';
+import { FileDown, Menu, Moon, Sun, X } from 'lucide-react';
 import { AnimatePresence, motion } from 'motion/react';
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -26,7 +26,9 @@ export function Header() {
         };
     }, [open]);
 
-    const nextLang = i18n.language === 'uz' ? 'en' : 'uz';
+    // A segmented switch showing both languages: a single button labelled with
+    // either the current or the target language is read both ways by users.
+    const current: 'en' | 'uz' = i18n.language?.startsWith('uz') ? 'uz' : 'en';
 
     return (
         <header
@@ -53,14 +55,28 @@ export function Header() {
                 </nav>
 
                 <div className="flex items-center gap-1.5">
-                    <button
-                        type="button"
-                        onClick={() => i18n.changeLanguage(nextLang)}
-                        className="inline-flex h-9 items-center gap-1.5 rounded-full border border-line px-3 font-mono text-[11px] uppercase text-muted transition-colors hover:border-accent hover:text-accent"
+                    <div
+                        className="flex h-9 items-center rounded-full border border-line p-0.5"
+                        role="group"
                         aria-label={t('nav.language')}
                     >
-                        <Languages size={14} /> {nextLang}
-                    </button>
+                        {(['en', 'uz'] as const).map((lng) => (
+                            <button
+                                key={lng}
+                                type="button"
+                                onClick={() => i18n.changeLanguage(lng)}
+                                aria-pressed={current === lng}
+                                className={cn(
+                                    'h-8 rounded-full px-2.5 font-mono text-[11px] uppercase transition-colors',
+                                    current === lng
+                                        ? 'bg-accent text-accent-fg'
+                                        : 'text-muted hover:text-fg'
+                                )}
+                            >
+                                {lng}
+                            </button>
+                        ))}
+                    </div>
                     <button
                         type="button"
                         onClick={toggle}

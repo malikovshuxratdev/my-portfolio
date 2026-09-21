@@ -11,7 +11,7 @@ export const PROFILE = {
     location: 'Tashkent, Uzbekistan',
     resume: '/Shukhrat_Malikov_Resume.pdf',
     yearsOfExperience: 4,
-    platformsInProduction: 9,
+    platformsInProduction: 15,
     companies: 3,
 } as const;
 

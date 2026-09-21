@@ -12,9 +12,9 @@
     },
     "hero": {
         "eyebrow": "Frontend Developer · Tashkent, Uzbekistan",
-        "available": "Open to new opportunities",
-        "title1": "I build the frontends of",
-        "title2": "Uzbekistan's national science platforms.",
+        "available": "Live",
+        "title1": "I build fast, accessible frontends",
+        "title2": "for web and mobile products.",
         "lead": "Frontend developer with {{years}} years of commercial experience in React, Next.js, React Native and TypeScript. I own the full path to production: component architecture from Figma, API integration, SSR and SEO, then deployment with Docker, nginx and CI/CD.",
         "ai": "AI-assisted engineering with Claude Code and MCP is part of my daily workflow.",
         "ctaProjects": "View projects",
@@ -28,24 +28,56 @@
         "photoOrg": "Innovation Development Agency"
     },
     "sections": {
-        "experience": { "eyebrow": "Experience", "title": "Where I've worked", "lead": "Four years across a government innovation agency, a software studio and an e-commerce product company." },
-        "projects": { "eyebrow": "Selected work", "title": "Platforms in production", "lead": "Public portals, personal cabinets and admin panels of Uzbekistan's science and innovation ecosystem — all live today.", "note": "Plus a scientific journals platform on Next.js and the internal admin panels behind each portal.", "visit": "Visit site", "live": "Live" },
-        "skills": { "eyebrow": "Toolkit", "title": "What I work with", "lead": "From TypeScript and React to Docker and CI/CD — the stack behind every release." },
-        "education": { "eyebrow": "Background", "title": "Education & languages" },
-        "contact": { "eyebrow": "Contact", "title": "Let's build something.", "lead": "Have a project, a role or just a question? Write to me — I answer within a day." }
+        "experience": {
+            "eyebrow": "Experience",
+            "title": "Where I've worked",
+            "lead": "Four years across a government innovation agency, a software studio and an e-commerce product company."
+        },
+        "projects": {
+            "eyebrow": "Selected work",
+            "title": "Platforms in production",
+            "lead": "Public portals, personal cabinets and admin panels of Uzbekistan's science and innovation ecosystem — all live today.",
+            "note": "These are the best known of them; the full set runs to more than 15 platforms, plus the internal admin panels behind each portal.",
+            "visit": "Visit site",
+            "live": "Live"
+        },
+        "skills": {
+            "eyebrow": "Toolkit",
+            "title": "What I work with",
+            "lead": "From TypeScript and React to Docker and CI/CD — the stack behind every release."
+        },
+        "education": {
+            "eyebrow": "Background",
+            "title": "Education & languages"
+        },
+        "contact": {
+            "eyebrow": "Contact",
+            "title": "Let's build something.",
+            "lead": "Have a project, a role or just a question? Write to me — I answer within a day."
+        },
+        "archive": {
+            "eyebrow": "Archive",
+            "title": "Earlier work",
+            "lead": "Web and mobile products built between 2022 and 2024 at Softwhere and Empire Soft."
+        }
     },
     "experience": {
         "present": "Present",
-        "duration": { "years_one": "{{count}} yr", "years_other": "{{count}} yrs", "months_one": "{{count}} mo", "months_other": "{{count}} mos" },
+        "duration": {
+            "years_one": "{{count}} yr",
+            "years_other": "{{count}} yrs",
+            "months_one": "{{count}} mo",
+            "months_other": "{{count}} mos"
+        },
         "stack": "Stack",
         "showMore": "Show details",
         "showLess": "Hide details",
         "ida": {
             "role": "Frontend Developer",
-            "type": "Full-time · On-site",
+            "type": "Full-time · Offline",
             "summary": "Government agency under the Ministry of Higher Education, Science and Innovation. Frontend of the national science and innovation ecosystem (ilmiy.uz): public portals, personal cabinets and admin panels for researchers, universities and state bodies.",
             "bullets": [
-                "Build and maintain the frontends of 9 production platforms with React, Next.js and TypeScript, from project setup and architecture to release and support.",
+                "Build and maintain the frontends of 15+ production platforms with React, Next.js and TypeScript, from project setup and architecture to release and support.",
                 "Turn Figma designs into responsive, accessible, multilingual interfaces; built shared component libraries on shadcn/ui, Radix UI, Ant Design and Tailwind CSS with design tokens, so new pages are assembled from ready blocks.",
                 "Design the data layer on TanStack Query, Redux Toolkit, Zustand and Axios: typed API clients from Swagger/OpenAPI, JWT refresh interceptors, caching and invalidation, pagination, optimistic updates, unified error handling.",
                 "Build complex forms with React Hook Form and Zod/Yup (multi-step flows, dynamic fields, draft persistence, unsaved-changes guards) and analytics dashboards with Recharts and Ant Design Charts.",
@@ -56,7 +88,7 @@
         },
         "softwhere": {
             "role": "React / React Native Developer",
-            "type": "Full-time · On-site",
+            "type": "Full-time · Offline",
             "summary": "Software company: web and mobile apps built from scratch, plus new features for products in development.",
             "bullets": [
                 "Developed web apps with React and cross-platform mobile apps with React Native and Expo, from an empty repository to a production release.",
@@ -67,7 +99,7 @@
         },
         "empire": {
             "role": "React / React Native Developer",
-            "type": "Full-time · On-site",
+            "type": "Full-time · Offline",
             "summary": "E-commerce products: online store applications for web, iOS and Android.",
             "bullets": [
                 "Developed an online store application for iOS and Android with React Native and Expo: catalogue, search, cart and checkout flows.",
@@ -78,15 +110,46 @@
         }
     },
     "projects": {
-        "kinds": { "web": "Web platform", "ssr": "SSR · SEO", "sso": "Single sign-on", "ai": "AI detection", "event": "Event platform", "booking": "Online booking" },
-        "slib": { "title": "National scientific e-library", "description": "Search across 360 journals, 20k authors and 38k articles with open-access reading, article submission and editorial workflows. Server-side rendered with Vite SSR on Express for SEO and a fast first load." },
-        "anticopy": { "title": "Plagiarism & AI-text detection", "description": "Uploads a document and highlights borrowed passages and AI-generated text with originality scores. Built the whole UI including the AI-detection report view, on Next.js with Radix and Tailwind." },
-        "id": { "title": "Single sign-on for the science ecosystem", "description": "Identification system for researchers: one account, one profile and one login across every ilmiy.uz platform, with OAuth 2.0 / JWT sessions and a personal cabinet." },
-        "innoweek": { "title": "InnoWeek innovation week", "description": "Public site of the national innovation week: programme, registration, news, gallery, contests and InnoMarket, with a live countdown and multilingual content." },
-        "tripogram": { "title": "Tour search & online booking", "description": "Consumer travel platform: search tours by destination, dates and travellers, compare packages from agencies and book online. Server-rendered for SEO." },
-        "etaqriz": { "title": "Electronic peer review", "description": "Platform that connects authors with qualified reviewers: submit a work, get it reviewed by experts, track status and receive a verified conclusion." },
-        "internship": { "title": "Research internships abroad", "description": "Unified electronic system for organising international scientific internships: calls, applications, selection and reporting for researchers and universities." },
-        "akadem": { "title": "Academic mobility programme", "description": "Portal for research conferences, internships and joint projects: calls for participation, applications and public statistics on selections and applicants." }
+        "kinds": {
+            "web": "Web platform",
+            "ssr": "SSR · SEO",
+            "sso": "Single sign-on",
+            "ai": "AI detection",
+            "event": "Event platform",
+            "booking": "Online booking"
+        },
+        "slib": {
+            "title": "National scientific e-library",
+            "description": "Search across 360 journals, 20k authors and 38k articles with open-access reading, article submission and editorial workflows. Server-side rendered with Vite SSR on Express for SEO and a fast first load."
+        },
+        "anticopy": {
+            "title": "Plagiarism & AI-text detection",
+            "description": "Uploads a document and highlights borrowed passages and AI-generated text with originality scores. Built the whole UI including the AI-detection report view, on Next.js with Radix and Tailwind."
+        },
+        "id": {
+            "title": "Single sign-on for the science ecosystem",
+            "description": "Identification system for researchers: one account, one profile and one login across every ilmiy.uz platform, with OAuth 2.0 / JWT sessions and a personal cabinet."
+        },
+        "innoweek": {
+            "title": "InnoWeek innovation week",
+            "description": "Public site of the national innovation week: programme, registration, news, gallery, contests and InnoMarket, with a live countdown and multilingual content."
+        },
+        "tripogram": {
+            "title": "Tour search & online booking",
+            "description": "Consumer travel platform: search tours by destination, dates and travellers, compare packages from agencies and book online. Server-rendered for SEO."
+        },
+        "etaqriz": {
+            "title": "Electronic peer review",
+            "description": "Platform that connects authors with qualified reviewers: submit a work, get it reviewed by experts, track status and receive a verified conclusion."
+        },
+        "internship": {
+            "title": "Research internships abroad",
+            "description": "Unified electronic system for organising international scientific internships: calls, applications, selection and reporting for researchers and universities."
+        },
+        "akadem": {
+            "title": "Academic mobility programme",
+            "description": "Portal for research conferences, internships and joint projects: calls for participation, applications and public statistics on selections and applicants."
+        }
     },
     "skills": {
         "languages": "Languages",
@@ -108,9 +171,18 @@
         "years": "2019 – 2023",
         "languagesTitle": "Languages",
         "languages": [
-            { "name": "Uzbek", "level": "Native" },
-            { "name": "English", "level": "Upper-Intermediate (B2)" },
-            { "name": "Russian", "level": "Basic" }
+            {
+                "name": "Uzbek",
+                "level": "Native"
+            },
+            {
+                "name": "English",
+                "level": "Upper-Intermediate (B2)"
+            },
+            {
+                "name": "Russian",
+                "level": "Basic"
+            }
         ]
     },
     "contact": {
@@ -135,5 +207,28 @@
     "footer": {
         "rights": "© {{year}} Shukhrat Malikov. Built with React, Vite and Tailwind CSS.",
         "top": "Back to top"
+    },
+    "archive": {
+        "title": "Earlier work",
+        "eyebrow": "Archive",
+        "lead": "Web and mobile products built between 2022 and 2024 at Softwhere and Empire Soft.",
+        "archived": "Archived",
+        "archivedNote": "Sites and listings that are no longer online are shown without a link.",
+        "platform": {
+            "web": "Web",
+            "ios": "iOS",
+            "android": "Android",
+            "mobile": "iOS · Android"
+        },
+        "items": {
+            "hayat": "Hospital site with online appointment booking, built to keep patients out of the queue.",
+            "banana": "Streaming app for films and series with personalised recommendations. 50k+ downloads on Google Play.",
+            "polytex": "Admin app for the Polytex laundry system. Fixed bugs, upgraded the libraries and improved performance.",
+            "lacasa": "Real-estate marketplace: owners post listings to sell or rent, buyers search and get in touch.",
+            "kiber": "Contract management platform in the vein of Didox: create contracts, sign them with E-IMZO, accept or cancel online.",
+            "birmakonWeb": "Site of the Birmakon professional services centre. Built several pages and their API integrations.",
+            "birmakonApp": "Online store app for iOS and Android: catalogue, search, cart and orders.",
+            "modern": "Shopping app for iOS and Android built as lead developer: catalogue, chat and real-time order updates."
+        }
     }
 }

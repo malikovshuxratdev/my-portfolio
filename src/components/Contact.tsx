@@ -28,14 +28,14 @@ function CopyRow({ icon, label, value, href }: { icon: React.ReactNode; label: s
     const { t } = useTranslation();
     const { copied, copy } = useCopy();
     return (
-        <div className="flex items-center justify-between gap-4 border-b border-line py-4">
+        <div className="flex items-center justify-between gap-3 border-b border-line py-3.5 sm:gap-4 sm:py-4">
             <a href={href} target="_blank" rel="noreferrer" className="group flex min-w-0 items-center gap-3">
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-line text-muted transition-colors group-hover:border-accent group-hover:text-accent">
                     {icon}
                 </span>
                 <span className="min-w-0">
                     <span className="block font-mono text-[11px] uppercase tracking-widest text-muted">{label}</span>
-                    <span className="block truncate font-medium transition-colors group-hover:text-accent">{value}</span>
+                    <span className="block truncate text-sm font-medium transition-colors group-hover:text-accent sm:text-base">{value}</span>
                 </span>
             </a>
             <button
@@ -89,14 +89,14 @@ export function Contact() {
                                     <span className="block font-mono text-[11px] uppercase tracking-widest text-muted">
                                         {t('contact.location')}
                                     </span>
-                                    <span className="block font-medium">{PROFILE.location}</span>
+                                    <span className="block text-sm font-medium sm:text-base">{PROFILE.location}</span>
                                 </span>
                             </div>
                         </div>
                     </Reveal>
 
                     <Reveal delay={0.08}>
-                        <form onSubmit={onSubmit} className="rounded-2xl border border-line bg-card p-6 sm:p-8">
+                        <form onSubmit={onSubmit} className="rounded-2xl border border-line bg-card p-5 sm:p-8">
                             <div className="grid gap-4 sm:grid-cols-2">
                                 <label className="block">
                                     <span className="mb-2 block font-mono text-[11px] uppercase tracking-widest text-muted">

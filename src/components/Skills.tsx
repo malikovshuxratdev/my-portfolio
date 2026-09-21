@@ -14,7 +14,7 @@ export function Skills() {
                     title={t('sections.skills.title')}
                     lead={t('sections.skills.lead')}
                 />
-                <div className="grid gap-x-10 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="grid gap-x-8 gap-y-7 sm:grid-cols-2 sm:gap-x-10 sm:gap-y-8 lg:grid-cols-3">
                     {SKILLS.map((group, i) => (
                         <Reveal key={group.id} delay={(i % 3) * 0.05}>
                             <div className="border-t border-line pt-5">

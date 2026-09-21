@@ -27,17 +27,17 @@ function JobCard({ job, index }: { job: Job; index: number }) {
 
     return (
         <Reveal delay={index * 0.05}>
-            <article className="group relative grid gap-6 border-t border-line py-10 md:grid-cols-[13rem_1fr] md:gap-12">
-                <div className="md:sticky md:top-24 md:self-start">
+            <article className="group relative grid gap-5 border-t border-line py-9 sm:gap-6 sm:py-10 md:grid-cols-[13rem_1fr] md:gap-12">
+                <div className="flex flex-wrap items-center gap-x-3 gap-y-2 md:sticky md:top-24 md:block md:self-start">
                     <div className="font-mono text-xs text-muted">
                         {formatMonth(job.start, i18n.language)} —{' '}
                         {job.end ? formatMonth(job.end, i18n.language) : t('experience.present')}
                     </div>
-                    <div className="mt-1 font-mono text-xs text-accent">
+                    <div className="font-mono text-xs text-accent md:mt-1">
                         <Duration start={job.start} end={job.end} />
                     </div>
                     {!job.end && (
-                        <span className="mt-3 inline-flex items-center gap-2 rounded-full border border-line px-2.5 py-1 text-[11px] text-muted">
+                        <span className="inline-flex items-center gap-2 rounded-full border border-line px-2.5 py-1 text-[11px] text-muted md:mt-3">
                             <span className="dot-live h-1.5 w-1.5 rounded-full bg-green-500" />
                             {t('experience.present')}
                         </span>
@@ -47,7 +47,7 @@ function JobCard({ job, index }: { job: Job; index: number }) {
                 <div>
                     <div className="flex flex-wrap items-start justify-between gap-4">
                         <div>
-                            <h3 className="font-display text-2xl font-semibold tracking-tight sm:text-3xl">
+                            <h3 className="font-display text-xl font-semibold tracking-tight sm:text-3xl">
                                 {t(`experience.${job.id}.role`)}
                             </h3>
                             <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted">
@@ -69,7 +69,7 @@ function JobCard({ job, index }: { job: Job; index: number }) {
                         </div>
                     </div>
 
-                    <p className="mt-5 max-w-2xl leading-relaxed text-muted">{t(`experience.${job.id}.summary`)}</p>
+                    <p className="mt-4 max-w-2xl text-[15px] leading-relaxed text-muted sm:mt-5 sm:text-base">{t(`experience.${job.id}.summary`)}</p>
 
                     <ul className="mt-5 flex flex-wrap gap-1.5" aria-label={t('experience.stack')}>
                         {job.stack.map((s) => (
@@ -99,7 +99,7 @@ function JobCard({ job, index }: { job: Job; index: number }) {
                                 className="overflow-hidden"
                             >
                                 {bullets.map((b, i) => (
-                                    <li key={i} className="flex gap-3 pt-4 text-sm leading-relaxed text-muted first:pt-5">
+                                    <li key={i} className="flex gap-3 pt-4 text-[13px] leading-relaxed text-muted first:pt-5 sm:text-sm">
                                         <span className="mt-2.5 h-1 w-3 shrink-0 bg-accent" aria-hidden />
                                         <span>{b}</span>
                                     </li>

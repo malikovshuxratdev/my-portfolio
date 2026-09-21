@@ -19,9 +19,9 @@ export function Education() {
                 />
                 <div className="grid gap-6 md:grid-cols-2">
                     <Reveal>
-                        <div className="h-full rounded-2xl border border-line bg-card p-6 sm:p-8">
+                        <div className="h-full rounded-2xl border border-line bg-card p-5 sm:p-8">
                             <GraduationCap size={22} className="text-accent" />
-                            <h3 className="mt-5 font-display text-xl font-semibold tracking-tight">
+                            <h3 className="mt-5 font-display text-lg font-semibold tracking-tight sm:text-xl">
                                 {t('education.school')}
                             </h3>
                             <p className="mt-2 text-muted">{t('education.degree')}</p>
@@ -29,14 +29,14 @@ export function Education() {
                         </div>
                     </Reveal>
                     <Reveal delay={0.08}>
-                        <div className="h-full rounded-2xl border border-line bg-card p-6 sm:p-8">
-                            <h3 className="font-display text-xl font-semibold tracking-tight">
+                        <div className="h-full rounded-2xl border border-line bg-card p-5 sm:p-8">
+                            <h3 className="font-display text-lg font-semibold tracking-tight sm:text-xl">
                                 {t('education.languagesTitle')}
                             </h3>
                             <dl className="mt-5 divide-y divide-line">
                                 {languages.map((l) => (
                                     <div key={l.name} className="flex items-baseline justify-between gap-4 py-3.5">
-                                        <dt className="font-medium">{l.name}</dt>
+                                        <dt className="text-sm font-medium sm:text-base">{l.name}</dt>
                                         <dd className="font-mono text-xs text-muted">{l.level}</dd>
                                     </div>
                                 ))}

@@ -16,12 +16,12 @@ export function Hero() {
 
     const stats = [
         { value: `${PROFILE.yearsOfExperience}+`, label: t('hero.stats.years') },
-        { value: String(PROFILE.platformsInProduction), label: t('hero.stats.platforms') },
+        { value: `${PROFILE.platformsInProduction}+`, label: t('hero.stats.platforms') },
         { value: String(PROFILE.companies), label: t('hero.stats.companies') },
     ];
 
     return (
-        <section id="top" className="relative overflow-hidden pt-28 sm:pt-36">
+        <section id="top" className="relative overflow-hidden pt-24 sm:pt-36">
             <div className="bg-grid pointer-events-none absolute inset-0 -z-10" aria-hidden />
             <div
                 className="pointer-events-none absolute -top-40 left-1/2 -z-10 h-[520px] w-[820px] -translate-x-1/2 rounded-full blur-3xl"
@@ -59,7 +59,7 @@ export function Hero() {
                         <span className="text-fg">{t('hero.ai')}</span>
                     </motion.p>
 
-                    <motion.div {...rise(0.4)} className="mt-9 flex flex-wrap gap-3">
+                    <motion.div {...rise(0.4)} className="mt-9 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                         <a href="#projects" className="btn-primary">
                             {t('hero.ctaProjects')} <ArrowDown size={16} />
                         </a>
@@ -70,9 +70,9 @@ export function Hero() {
 
                     <motion.dl {...rise(0.5)} className="mt-12 grid max-w-lg grid-cols-3 divide-x divide-line border-y border-line">
                         {stats.map((s) => (
-                            <div key={s.label} className="px-4 py-5 first:pl-0">
-                                <dt className="font-display text-3xl font-semibold tracking-tight sm:text-4xl">{s.value}</dt>
-                                <dd className="mt-1 text-xs leading-snug text-muted">{s.label}</dd>
+                            <div key={s.label} className="px-3 py-5 first:pl-0 sm:px-4">
+                                <dt className="font-display text-2xl font-semibold tracking-tight sm:text-4xl">{s.value}</dt>
+                                <dd className="mt-1 text-[11px] leading-snug text-muted sm:text-xs">{s.label}</dd>
                             </div>
                         ))}
                     </motion.dl>
@@ -82,7 +82,7 @@ export function Hero() {
                     initial={reduce ? false : { opacity: 0, scale: 0.94, rotate: 2 }}
                     animate={{ opacity: 1, scale: 1, rotate: 0 }}
                     transition={{ duration: 1.1, delay: 0.25, ease }}
-                    className="relative mx-auto w-full max-w-xs lg:max-w-sm"
+                    className="relative mx-auto w-full max-w-[17rem] sm:max-w-xs lg:max-w-sm"
                 >
                     <div className="absolute -inset-3 -z-10 rounded-[2rem] border border-line" aria-hidden />
                     <div className="absolute -right-6 -top-6 -z-10 h-40 w-40 rounded-full bg-accent/20 blur-3xl" aria-hidden />
@@ -94,14 +94,14 @@ export function Hero() {
                         fetchPriority="high"
                         className="aspect-square w-full rounded-[1.6rem] object-cover object-top grayscale-[15%] contrast-[1.04]"
                     />
-                    <figcaption className="absolute -bottom-5 left-4 right-4 rounded-2xl border border-line bg-card/90 px-4 py-3 shadow-xl backdrop-blur">
-                        <div className="text-sm font-medium">{t('hero.photoRole')}</div>
-                        <div className="text-xs text-muted">{t('hero.photoOrg')} · 2025 →</div>
+                    <figcaption className="absolute -bottom-5 left-3 right-3 rounded-2xl border border-line bg-card/90 px-3.5 py-3 shadow-xl backdrop-blur sm:left-4 sm:right-4 sm:px-4">
+                        <div className="text-[13px] font-medium sm:text-sm">{t('hero.photoRole')}</div>
+                        <div className="text-[11px] leading-snug text-muted sm:text-xs">{t('hero.photoOrg')} · 2025 →</div>
                     </figcaption>
                 </motion.figure>
             </div>
 
-            <motion.div {...rise(0.6)} className="marquee mt-20 border-y border-line py-4" aria-hidden>
+            <motion.div {...rise(0.6)} className="marquee mt-16 border-y border-line py-4 sm:mt-20" aria-hidden>
                 <div className="marquee-track flex w-max gap-10 whitespace-nowrap font-mono text-xs uppercase tracking-[0.2em] text-muted">
                     {[...MARQUEE, ...MARQUEE].map((item, i) => (
                         <span key={i} className="flex items-center gap-10">

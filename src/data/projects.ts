@@ -85,3 +85,86 @@ export const PROJECTS: Project[] = [
         stack: ['React', 'Vite', 'TypeScript', 'TanStack Query', 'Redux Toolkit', 'Ant Design', 'Tailwind CSS', 'i18next'],
     },
 ];
+
+export type ArchiveProject = {
+    id: string;
+    name: string;
+    /** Where it lives, shown under the name: a domain or a store. */
+    label: string;
+    /** Omitted when the site or listing is gone — a dead link is worse than none. */
+    url?: string;
+    image: string;
+    platform: 'web' | 'ios' | 'android' | 'mobile';
+    stack: string[];
+};
+
+/** Earlier work, 2022–2024. Shown smaller, below the current platforms. */
+export const ARCHIVE: ArchiveProject[] = [
+    {
+        id: 'hayat',
+        name: 'Hayat Hospital',
+        label: 'hayatmed.uz',
+        url: 'https://hayatmed.uz/en/',
+        image: '/projects/hayat.webp',
+        platform: 'web',
+        stack: ['React', 'TypeScript', 'React Query', 'MUI', 'Tailwind CSS'],
+    },
+    {
+        id: 'banana',
+        name: 'Banana TV',
+        label: 'Google Play',
+        url: 'https://play.google.com/store/apps/details?id=com.anonymous.movieapp',
+        image: '/projects/banana.webp',
+        platform: 'android',
+        stack: ['React Native', 'Expo', 'MobX', 'TypeScript', 'REST API'],
+    },
+    {
+        id: 'polytex',
+        name: 'Polytex Admin',
+        label: 'App Store',
+        url: 'https://apps.apple.com/us/app/polytex-admin/id1628773445',
+        image: '/projects/polytex.webp',
+        platform: 'ios',
+        stack: ['Expo', 'React Navigation', 'Redux', 'Axios'],
+    },
+    {
+        id: 'lacasa',
+        name: 'Lacasa',
+        label: 'lacasa.uz',
+        image: '/projects/lacasa.webp',
+        platform: 'web',
+        stack: ['React', 'TypeScript', 'Zustand', 'Tailwind CSS', 'Firebase'],
+    },
+    {
+        id: 'kiber',
+        name: 'Kiber',
+        label: 'kiber.uz',
+        image: '/projects/kiber.webp',
+        platform: 'web',
+        stack: ['React', 'TypeScript', 'React Query', 'E-IMZO', 'Bootstrap'],
+    },
+    {
+        id: 'birmakonWeb',
+        name: 'Birmakon',
+        label: 'birmakon.com',
+        image: '/projects/birmakon-web.webp',
+        platform: 'web',
+        stack: ['React', 'TypeScript', 'MobX', 'Bootstrap', 'Firebase'],
+    },
+    {
+        id: 'birmakonApp',
+        name: 'Birmakon',
+        label: 'iOS · Android',
+        image: '/projects/birmakon-app.webp',
+        platform: 'mobile',
+        stack: ['React Native', 'React Navigation', 'MobX', 'Axios'],
+    },
+    {
+        id: 'modern',
+        name: 'Modern Shop',
+        label: 'iOS · Android',
+        image: '/projects/modern.webp',
+        platform: 'mobile',
+        stack: ['Expo', 'React Native', 'MobX', 'WebSocket', 'TypeScript'],
+    },
+];

@@ -12,9 +12,9 @@
     },
     "hero": {
         "eyebrow": "Frontend dasturchi · Toshkent, O'zbekiston",
-        "available": "Yangi takliflarga ochiqman",
-        "title1": "O'zbekistonning milliy ilmiy",
-        "title2": "platformalari frontendini quraman.",
+        "available": "Live",
+        "title1": "Veb va mobil mahsulotlar uchun",
+        "title2": "tez va qulay frontend quraman.",
         "lead": "React, Next.js, React Native va TypeScript bo'yicha {{years}} yillik tijoriy tajribaga ega frontend dasturchiman. Production'gacha bo'lgan butun yo'lga javob beraman: Figma'dan komponent arxitekturasi, API integratsiyasi, SSR va SEO, so'ngra Docker, nginx va CI/CD orqali deploy.",
         "ai": "Claude Code va MCP bilan AI-yordamli dasturlash — kundalik ish jarayonimning bir qismi.",
         "ctaProjects": "Loyihalarni ko'rish",
@@ -28,24 +28,56 @@
         "photoOrg": "Innovatsion rivojlanish agentligi"
     },
     "sections": {
-        "experience": { "eyebrow": "Tajriba", "title": "Qayerda ishlaganman", "lead": "To'rt yil: davlat innovatsiya agentligi, dasturiy ta'minot studiyasi va e-commerce mahsulot kompaniyasi." },
-        "projects": { "eyebrow": "Tanlangan ishlar", "title": "Production'dagi platformalar", "lead": "O'zbekiston ilm-fan va innovatsiya ekotizimining ochiq portallari, shaxsiy kabinetlari va admin panellari — barchasi bugun ishlamoqda.", "note": "Bundan tashqari, Next.js'dagi ilmiy jurnallar platformasi va har bir portal ortidagi ichki admin panellar.", "visit": "Saytga o'tish", "live": "Jonli" },
-        "skills": { "eyebrow": "Vositalar", "title": "Nimalar bilan ishlayman", "lead": "TypeScript va React'dan Docker va CI/CD'gacha — har bir relizning ortidagi stek." },
-        "education": { "eyebrow": "Ma'lumot", "title": "Ta'lim va tillar" },
-        "contact": { "eyebrow": "Aloqa", "title": "Keling, birga quramiz.", "lead": "Loyiha, ish taklifi yoki shunchaki savolingiz bormi? Yozing — bir kun ichida javob beraman." }
+        "experience": {
+            "eyebrow": "Tajriba",
+            "title": "Qayerda ishlaganman",
+            "lead": "To'rt yil: davlat innovatsiya agentligi, dasturiy ta'minot studiyasi va e-commerce mahsulot kompaniyasi."
+        },
+        "projects": {
+            "eyebrow": "Tanlangan ishlar",
+            "title": "Production'dagi platformalar",
+            "lead": "O'zbekiston ilm-fan va innovatsiya ekotizimining ochiq portallari, shaxsiy kabinetlari va admin panellari — barchasi bugun ishlamoqda.",
+            "note": "Bular ulardan eng mashhurlari; umumiy soni 15 tadan ziyod, bundan tashqari har bir portal ortidagi ichki admin panellar ham bor.",
+            "visit": "Saytga o'tish",
+            "live": "Jonli"
+        },
+        "skills": {
+            "eyebrow": "Vositalar",
+            "title": "Nimalar bilan ishlayman",
+            "lead": "TypeScript va React'dan Docker va CI/CD'gacha — har bir relizning ortidagi stek."
+        },
+        "education": {
+            "eyebrow": "Ma'lumot",
+            "title": "Ta'lim va tillar"
+        },
+        "contact": {
+            "eyebrow": "Aloqa",
+            "title": "Keling, birga quramiz.",
+            "lead": "Loyiha, ish taklifi yoki shunchaki savolingiz bormi? Yozing — bir kun ichida javob beraman."
+        },
+        "archive": {
+            "eyebrow": "Arxiv",
+            "title": "Oldingi ishlar",
+            "lead": "2022–2024 yillarda Softwhere va Empire Soft'da qurilgan veb va mobil mahsulotlar."
+        }
     },
     "experience": {
         "present": "Hozir",
-        "duration": { "years_one": "{{count}} yil", "years_other": "{{count}} yil", "months_one": "{{count}} oy", "months_other": "{{count}} oy" },
+        "duration": {
+            "years_one": "{{count}} yil",
+            "years_other": "{{count}} yil",
+            "months_one": "{{count}} oy",
+            "months_other": "{{count}} oy"
+        },
         "stack": "Stek",
         "showMore": "Batafsil",
         "showLess": "Yopish",
         "ida": {
             "role": "Frontend dasturchi",
-            "type": "To'liq stavka · Ofisda",
+            "type": "To'liq stavka · Offline",
             "summary": "Oliy ta'lim, fan va innovatsiyalar vazirligi huzuridagi davlat agentligi. Milliy ilm-fan va innovatsiya ekotizimi (ilmiy.uz) frontendi: tadqiqotchilar, universitetlar va davlat organlari uchun ochiq portallar, shaxsiy kabinetlar va admin panellar.",
             "bullets": [
-                "React, Next.js va TypeScript'da 9 ta production platformaning frontendini quraman va qo'llab-quvvatlayman — loyiha sozlash va arxitekturadan relizgacha.",
+                "React, Next.js va TypeScript'da 15+ production platformaning frontendini quraman va qo'llab-quvvatlayman — loyiha sozlash va arxitekturadan relizgacha.",
                 "Figma dizaynlarini moslashuvchan, a11y va ko'p tilli interfeyslarga aylantiraman; shadcn/ui, Radix UI, Ant Design va Tailwind CSS asosida dizayn tokenlari bilan umumiy komponent kutubxonalari qurdim — yangi sahifalar tayyor bloklardan yig'iladi.",
                 "Ma'lumotlar qatlamini TanStack Query, Redux Toolkit, Zustand va Axios'da loyihalayman: Swagger/OpenAPI'dan tiplangan API mijozlari, JWT refresh interceptorlar, kesh va invalidatsiya, paginatsiya, optimistik yangilanishlar, yagona xatolik boshqaruvi.",
                 "React Hook Form va Zod/Yup bilan murakkab formalar (ko'p bosqichli oqimlar, dinamik maydonlar, qoralamani saqlash, saqlanmagan o'zgarishlar himoyasi) va Recharts hamda Ant Design Charts bilan analitik dashboardlar quraman.",
@@ -56,7 +88,7 @@
         },
         "softwhere": {
             "role": "React / React Native dasturchi",
-            "type": "To'liq stavka · Ofisda",
+            "type": "To'liq stavka · Offline",
             "summary": "Dasturiy ta'minot kompaniyasi: noldan qurilgan veb va mobil ilovalar hamda ishlab chiqilayotgan mahsulotlar uchun yangi funksiyalar.",
             "bullets": [
                 "React'da veb ilovalar va React Native hamda Expo'da kross-platforma mobil ilovalarni bo'sh repozitoriydan production relizgacha ishlab chiqdim.",
@@ -67,7 +99,7 @@
         },
         "empire": {
             "role": "React / React Native dasturchi",
-            "type": "To'liq stavka · Ofisda",
+            "type": "To'liq stavka · Offline",
             "summary": "E-commerce mahsulotlar: veb, iOS va Android uchun onlayn do'kon ilovalari.",
             "bullets": [
                 "React Native va Expo'da iOS va Android uchun onlayn do'kon ilovasini ishlab chiqdim: katalog, qidiruv, savat va checkout oqimlari.",
@@ -78,29 +110,60 @@
         }
     },
     "projects": {
-        "kinds": { "web": "Veb platforma", "ssr": "SSR · SEO", "sso": "Yagona kirish", "ai": "AI aniqlash", "event": "Tadbir platformasi", "booking": "Onlayn bron" },
-        "slib": { "title": "Milliy ilmiy elektron kutubxona", "description": "360 ta jurnal, 20 ming muallif va 38 ming maqola bo'yicha qidiruv, ochiq maqolalarni o'qish, maqola topshirish va tahririyat jarayonlari. SEO va tez yuklanish uchun Express'dagi Vite SSR bilan server tomonda render qilinadi." },
-        "anticopy": { "title": "Plagiat va AI matnini aniqlash", "description": "Hujjatni yuklaydi va o'zlashtirilgan parchalar hamda AI yaratgan matnni originallik ko'rsatkichlari bilan ajratib ko'rsatadi. AI-aniqlash hisoboti ko'rinishi bilan butun UI'ni Next.js, Radix va Tailwind'da qurdim." },
-        "id": { "title": "Ilmiy ekotizim uchun yagona kirish", "description": "Tadqiqotchilar uchun identifikatsiya tizimi: barcha ilmiy.uz platformalari uchun bitta akkaunt, bitta profil va bitta kirish — OAuth 2.0 / JWT sessiyalari va shaxsiy kabinet bilan." },
-        "innoweek": { "title": "InnoWeek innovatsiya haftaligi", "description": "Milliy innovatsiya haftaligining ochiq sayti: dastur, ro'yxatdan o'tish, yangiliklar, galereya, tanlovlar va InnoMarket — jonli hisoblagich va ko'p tilli kontent bilan." },
-        "tripogram": { "title": "Tur qidirish va onlayn bron", "description": "Sayohat platformasi: yo'nalish, sana va sayohatchilar soni bo'yicha turlarni qidirish, agentliklar paketlarini solishtirish va onlayn bron qilish. SEO uchun server tomonda render." },
-        "etaqriz": { "title": "Elektron taqriz", "description": "Mualliflarni malakali taqrizchilar bilan bog'laydigan platforma: ishni topshiring, ekspertlar taqrizidan o'tkazing, holatni kuzating va tasdiqlangan xulosani oling." },
-        "internship": { "title": "Xorijiy ilmiy stajirovkalar", "description": "Xalqaro ilmiy stajirovkalarni tashkil etishning yagona elektron tizimi: tanlovlar, arizalar, saralash va tadqiqotchilar hamda universitetlar uchun hisobot." },
-        "akadem": { "title": "Akademik harakatchanlik dasturi", "description": "Ilmiy anjumanlar, stajirovkalar va qo'shma loyihalar portali: ishtirok uchun tanlovlar, arizalar hamda saralash va arizachilar bo'yicha ochiq statistika." }
+        "kinds": {
+            "web": "Veb platforma",
+            "ssr": "SSR · SEO",
+            "sso": "Yagona kirish",
+            "ai": "AI aniqlash",
+            "event": "Tadbir platformasi",
+            "booking": "Onlayn bron"
+        },
+        "slib": {
+            "title": "Milliy ilmiy elektron kutubxona",
+            "description": "360 ta jurnal, 20 ming muallif va 38 ming maqola bo'yicha qidiruv, ochiq maqolalarni o'qish, maqola topshirish va tahririyat jarayonlari. SEO va tez yuklanish uchun Express'dagi Vite SSR bilan server tomonda render qilinadi."
+        },
+        "anticopy": {
+            "title": "Plagiat va AI matnini aniqlash",
+            "description": "Hujjatni yuklaydi va o'zlashtirilgan parchalar hamda AI yaratgan matnni originallik ko'rsatkichlari bilan ajratib ko'rsatadi. AI-aniqlash hisoboti ko'rinishi bilan butun UI'ni Next.js, Radix va Tailwind'da qurdim."
+        },
+        "id": {
+            "title": "Ilmiy ekotizim uchun yagona kirish",
+            "description": "Tadqiqotchilar uchun identifikatsiya tizimi: barcha ilmiy.uz platformalari uchun bitta akkaunt, bitta profil va bitta kirish — OAuth 2.0 / JWT sessiyalari va shaxsiy kabinet bilan."
+        },
+        "innoweek": {
+            "title": "InnoWeek innovatsiya haftaligi",
+            "description": "Milliy innovatsiya haftaligining ochiq sayti: dastur, ro'yxatdan o'tish, yangiliklar, galereya, tanlovlar va InnoMarket — jonli hisoblagich va ko'p tilli kontent bilan."
+        },
+        "tripogram": {
+            "title": "Tur qidirish va onlayn bron",
+            "description": "Sayohat platformasi: yo'nalish, sana va sayohatchilar soni bo'yicha turlarni qidirish, agentliklar paketlarini solishtirish va onlayn bron qilish. SEO uchun server tomonda render."
+        },
+        "etaqriz": {
+            "title": "Elektron taqriz",
+            "description": "Mualliflarni malakali taqrizchilar bilan bog'laydigan platforma: ishni topshiring, ekspertlar taqrizidan o'tkazing, holatni kuzating va tasdiqlangan xulosani oling."
+        },
+        "internship": {
+            "title": "Xorijiy ilmiy stajirovkalar",
+            "description": "Xalqaro ilmiy stajirovkalarni tashkil etishning yagona elektron tizimi: tanlovlar, arizalar, saralash va tadqiqotchilar hamda universitetlar uchun hisobot."
+        },
+        "akadem": {
+            "title": "Akademik harakatchanlik dasturi",
+            "description": "Ilmiy anjumanlar, stajirovkalar va qo'shma loyihalar portali: ishtirok uchun tanlovlar, arizalar hamda saralash va arizachilar bo'yicha ochiq statistika."
+        }
     },
     "skills": {
-        "languages": "Tillar",
-        "web": "Veb",
-        "mobile": "Mobil",
-        "ui": "UI kutubxonalar",
-        "state": "Holat va API",
-        "forms": "Formalar, grafiklar, i18n",
-        "seo": "SEO va tezlik",
-        "architecture": "Arxitektura",
+        "languages": "Languages",
+        "web": "Web",
+        "mobile": "Mobile",
+        "ui": "UI libraries",
+        "state": "State & API",
+        "forms": "Forms, charts, i18n",
+        "seo": "SEO & speed",
+        "architecture": "Architecture",
         "devops": "DevOps",
         "backend": "Backend",
-        "ai": "AI muhandisligi",
-        "tools": "Vositalar"
+        "ai": "AI engineering",
+        "tools": "Tools"
     },
     "education": {
         "degree": "Bakalavr, Elektr muhandisligi (Tarmoqlar)",
@@ -108,9 +171,18 @@
         "years": "2019 – 2023",
         "languagesTitle": "Tillar",
         "languages": [
-            { "name": "O'zbek", "level": "Ona tili" },
-            { "name": "Ingliz", "level": "Upper-Intermediate (B2)" },
-            { "name": "Rus", "level": "Boshlang'ich" }
+            {
+                "name": "O'zbek",
+                "level": "Ona tili"
+            },
+            {
+                "name": "Ingliz",
+                "level": "Upper-Intermediate (B2)"
+            },
+            {
+                "name": "Rus",
+                "level": "Boshlang'ich"
+            }
         ]
     },
     "contact": {
@@ -135,5 +207,28 @@
     "footer": {
         "rights": "© {{year}} Shukhrat Malikov. React, Vite va Tailwind CSS'da qurilgan.",
         "top": "Yuqoriga"
+    },
+    "archive": {
+        "title": "Oldingi ishlar",
+        "eyebrow": "Arxiv",
+        "lead": "2022–2024 yillarda Softwhere va Empire Soft'da qurilgan veb va mobil mahsulotlar.",
+        "archived": "Arxiv",
+        "archivedNote": "Endi ishlamaydigan saytlar va ilovalar havolasiz ko'rsatilgan.",
+        "platform": {
+            "web": "Web",
+            "ios": "iOS",
+            "android": "Android",
+            "mobile": "iOS · Android"
+        },
+        "items": {
+            "hayat": "Shifoxona sayti va onlayn navbat olish tizimi — bemorlar navbatda turmasligi uchun.",
+            "banana": "Film va seriallar uchun striming ilovasi, shaxsiy tavsiyalar bilan. Google Play'da 50 mingdan ortiq yuklab olish.",
+            "polytex": "Polytex kir yuvish tizimi uchun admin ilova. Xatolarni tuzatdim, kutubxonalarni yangiladim va unumdorlikni oshirdim.",
+            "lacasa": "Ko'chmas mulk platformasi: e'lon joylash, sotish yoki ijaraga berish, xaridorlar uchun qidiruv va aloqa.",
+            "kiber": "Didox uslubidagi shartnoma boshqaruv platformasi: shartnoma yaratish, E-IMZO bilan imzolash, onlayn qabul qilish yoki bekor qilish.",
+            "birmakonWeb": "Birmakon professional xizmatlar markazi sayti. Bir nechta sahifa va ularning API integratsiyalarini qurdim.",
+            "birmakonApp": "iOS va Android uchun onlayn do'kon ilovasi: katalog, qidiruv, savat va buyurtmalar.",
+            "modern": "Yetakchi dasturchi sifatida qurilgan iOS va Android uchun xarid ilovasi: katalog, chat va real vaqtda buyurtma yangilanishlari."
+        }
     }
 }
