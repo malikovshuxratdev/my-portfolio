@@ -16,7 +16,7 @@
         "title1": "Veb va mobil mahsulotlar uchun",
         "title2": "tez va qulay frontend quraman.",
         "lead": "React, Next.js, React Native va TypeScript bo'yicha {{years}} yillik tijoriy tajribaga ega frontend dasturchiman. Production'gacha bo'lgan butun yo'lga javob beraman: Figma'dan komponent arxitekturasi, API integratsiyasi, SSR va SEO, so'ngra Docker, nginx va CI/CD orqali deploy.",
-        "ai": "AI agentlar va MCP bilan ishlash — kundalik ish jarayonimning bir qismi. Shu bilan birga AI foydalanuvchi o'rniga ishlaydigan interfeyslarni quraman: milliy plagiat platformasidagi AI-matn detektori shulardan biri.",
+        "ai": "AI agentlar va MCP bilan ishlash — kundalik ish jarayonimning bir qismi. Shu bilan birga AI foydalanuvchi o'rniga ishlaydigan interfeyslarni quraman.",
         "ctaProjects": "Loyihalarni ko'rish",
         "ctaResume": "Rezyumeni yuklab olish",
         "stats": {

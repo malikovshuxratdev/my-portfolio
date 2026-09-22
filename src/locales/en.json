@@ -16,7 +16,7 @@
         "title1": "I build fast, accessible frontends",
         "title2": "for web and mobile products.",
         "lead": "Frontend developer with {{years}} years of commercial experience in React, Next.js, React Native and TypeScript. I own the full path to production: component architecture from Figma, API integration, SSR and SEO, then deployment with Docker, nginx and CI/CD.",
-        "ai": "Working with AI agents and MCP is part of my daily workflow — and I build the interfaces where AI does the work for the user, like the AI-text detector on the national plagiarism platform.",
+        "ai": "Working with AI agents and MCP is part of my daily workflow — and I build the interfaces where AI does the work for the user.",
         "ctaProjects": "View projects",
         "ctaResume": "Download resume",
         "stats": {
