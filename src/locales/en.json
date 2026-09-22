@@ -226,7 +226,7 @@
             "polytex": "Admin app for the Polytex laundry system. Fixed bugs, upgraded the libraries and improved performance.",
             "lacasa": "Real-estate marketplace: owners post listings to sell or rent, buyers search and get in touch.",
             "kiber": "Contract management platform in the vein of Didox: create contracts, sign them with E-IMZO, accept or cancel online.",
-            "birmakonWeb": "Site of the Birmakon professional services centre. Built several pages and their API integrations.",
+            "birmakonWeb": "Birmakon's website, now live at birmakon.uz. Built several of its pages and their API integrations as part of the frontend team.",
             "birmakonApp": "Online store app for iOS and Android: catalogue, search, cart and orders.",
             "modern": "Shopping app for iOS and Android built as lead developer: catalogue, chat and real-time order updates."
         }

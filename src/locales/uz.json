@@ -226,7 +226,7 @@
             "polytex": "Polytex kir yuvish tizimi uchun admin ilova. Xatolarni tuzatdim, kutubxonalarni yangiladim va unumdorlikni oshirdim.",
             "lacasa": "Ko'chmas mulk platformasi: e'lon joylash, sotish yoki ijaraga berish, xaridorlar uchun qidiruv va aloqa.",
             "kiber": "Didox uslubidagi shartnoma boshqaruv platformasi: shartnoma yaratish, E-IMZO bilan imzolash, onlayn qabul qilish yoki bekor qilish.",
-            "birmakonWeb": "Birmakon professional xizmatlar markazi sayti. Bir nechta sahifa va ularning API integratsiyalarini qurdim.",
+            "birmakonWeb": "Birmakon sayti, hozir birmakon.uz manzilida. Frontend jamoasi tarkibida bir nechta sahifa va ularning API integratsiyalarini qurdim.",
             "birmakonApp": "iOS va Android uchun onlayn do'kon ilovasi: katalog, qidiruv, savat va buyurtmalar.",
             "modern": "Yetakchi dasturchi sifatida qurilgan iOS va Android uchun xarid ilovasi: katalog, chat va real vaqtda buyurtma yangilanishlari."
         }

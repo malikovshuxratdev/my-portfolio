@@ -146,7 +146,8 @@ export const ARCHIVE: ArchiveProject[] = [
     {
         id: 'birmakonWeb',
         name: 'Birmakon',
-        label: 'birmakon.com',
+        label: 'birmakon.uz',
+        url: 'https://birmakon.uz/',
         image: '/projects/birmakon-web.webp',
         platform: 'web',
         stack: ['React', 'TypeScript', 'MobX', 'Bootstrap', 'Firebase'],
