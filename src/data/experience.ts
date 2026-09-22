@@ -4,6 +4,8 @@ export type Experience = {
     url?: string;
     start: string; // YYYY-MM
     end: string | null; // null = present
+    /** A team the role is carried out within, shown beside the employer. */
+    partnerUrl?: string;
     stack: string[];
 };
 
@@ -12,6 +14,7 @@ export const EXPERIENCE: Experience[] = [
         id: 'ida',
         company: 'Innovation Development Agency',
         url: 'https://gov.uz/oz/innovation',
+        partnerUrl: 'https://integrum.uz/',
         start: '2025-02',
         end: null,
         stack: [

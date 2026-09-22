@@ -36,7 +36,7 @@
         "projects": {
             "eyebrow": "Selected work",
             "title": "Platforms in production",
-            "lead": "Public portals, personal cabinets and admin panels of Uzbekistan's science and innovation ecosystem — the ilmiy.uz platforms at the Innovation Development Agency, the rest delivered with the Integrum team. All live today.",
+            "lead": "Public portals, personal cabinets and admin panels of Uzbekistan's science and innovation ecosystem — the ilmiy.uz platforms and InnoWeek at the Innovation Development Agency; slib.uz, Anticopy, Tripogram and E-Taqriz delivered with the Integrum team. All live today.",
             "note": "These are the best known of them; the full set runs to more than 15 platforms, plus the internal admin panels behind each portal.",
             "visit": "Visit site",
             "live": "Live"
@@ -75,7 +75,7 @@
         "ida": {
             "role": "Frontend Developer",
             "type": "Full-time · Offline",
-            "summary": "The agency under the Ministry of Higher Education, Science and Innovation. Frontend of the national science and innovation ecosystem (ilmiy.uz): public portals, personal cabinets and admin panels for researchers, universities and state bodies.",
+            "summary": "The agency under the Ministry of Higher Education, Science and Innovation. Frontend of the national science and innovation ecosystem: public portals, personal cabinets and admin panels for researchers, universities and state bodies. I work as part of the Integrum team — the ilmiy.uz platforms and InnoWeek are the agency's own; slib.uz, Anticopy, Tripogram and E-Taqriz were delivered together with Integrum.",
             "bullets": [
                 "Build and maintain the frontends of 15+ production platforms with React, Next.js and TypeScript, from project setup and architecture to release and support.",
                 "Turn Figma designs into responsive, accessible, multilingual interfaces; built shared component libraries on shadcn/ui, Radix UI, Ant Design and Tailwind CSS with design tokens, so new pages are assembled from ready blocks.",
@@ -85,7 +85,8 @@
                 "Own deployment: Docker and Docker Compose, nginx reverse proxy, PM2, CI/CD in GitHub Actions (self-hosted runners inside a closed network) and GitLab CI, separate dev, staging and production environments on Ubuntu servers.",
                 "Built the product side of the AI features, including the AI-text detector that shows a reviewer which passages a machine wrote; and brought AI agents into the team's workflow — project rules, agent skills and MCP integrations for Figma and Linear across triage, planning, implementation and review."
             ],
-            "company": "Innovation Development Agency under the Ministry of Higher Education, Science and Innovation"
+            "company": "Innovation Development Agency under the Ministry of Higher Education, Science and Innovation",
+            "partner": "Integrum team"
         },
         "softwhere": {
             "role": "React / React Native Developer",

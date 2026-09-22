@@ -36,7 +36,7 @@
         "projects": {
             "eyebrow": "Tanlangan ishlar",
             "title": "Production'dagi platformalar",
-            "lead": "O'zbekiston ilm-fan va innovatsiya ekotizimining ochiq portallari, shaxsiy kabinetlari va admin panellari — ilmiy.uz platformalari Innovatsion rivojlanish agentligida, qolganlari Integrum jamoasi bilan. Barchasi bugun ishlamoqda.",
+            "lead": "O'zbekiston ilm-fan va innovatsiya ekotizimining ochiq portallari, shaxsiy kabinetlari va admin panellari — ilmiy.uz platformalari va InnoWeek Innovatsion rivojlanish agentligida; slib.uz, Anticopy, Tripogram va E-Taqriz Integrum jamoasi bilan. Barchasi bugun ishlamoqda.",
             "note": "Bular ulardan eng mashhurlari; umumiy soni 15 tadan ziyod, bundan tashqari har bir portal ortidagi ichki admin panellar ham bor.",
             "visit": "Saytga o'tish",
             "live": "Jonli"
@@ -75,7 +75,7 @@
         "ida": {
             "role": "Frontend dasturchi",
             "type": "To'liq stavka · Offline",
-            "summary": "Oliy ta'lim, fan va innovatsiyalar vazirligi huzuridagi agentlik. Milliy ilm-fan va innovatsiya ekotizimi (ilmiy.uz) frontendi: tadqiqotchilar, universitetlar va davlat organlari uchun ochiq portallar, shaxsiy kabinetlar va admin panellar.",
+            "summary": "Oliy ta'lim, fan va innovatsiyalar vazirligi huzuridagi agentlik. Milliy ilm-fan va innovatsiya ekotizimi frontendi: tadqiqotchilar, universitetlar va davlat organlari uchun ochiq portallar, shaxsiy kabinetlar va admin panellar. Integrum jamoasi tarkibida ishlayman — ilmiy.uz platformalari va InnoWeek agentlikning o'zi uchun, slib.uz, Anticopy, Tripogram va E-Taqriz esa Integrum bilan birga qurilgan.",
             "bullets": [
                 "React, Next.js va TypeScript'da 15+ production platformaning frontendini quraman va qo'llab-quvvatlayman — loyiha sozlash va arxitekturadan relizgacha.",
                 "Figma dizaynlarini moslashuvchan, a11y va ko'p tilli interfeyslarga aylantiraman; shadcn/ui, Radix UI, Ant Design va Tailwind CSS asosida dizayn tokenlari bilan umumiy komponent kutubxonalari qurdim — yangi sahifalar tayyor bloklardan yig'iladi.",
@@ -85,7 +85,8 @@
                 "Deploy'ga to'liq javob beraman: Docker va Docker Compose, nginx reverse proxy, PM2, GitHub Actions (yopiq tarmoqdagi self-hosted runnerlar) va GitLab CI, Ubuntu serverlarda alohida dev, staging va production muhitlari.",
                 "AI funksiyalarining mahsulot tomonini qurdim — jumladan, taqrizchiga matnning qaysi qismini mashina yozganini ko'rsatadigan AI-matn detektorini; hamda jamoaning ish jarayoniga AI agentlarni olib kirdim: loyiha qoidalari, agent skill'lari va Figma hamda Linear uchun MCP integratsiyalari, triaj, rejalashtirish, amalga oshirish va review bosqichlarida."
             ],
-            "company": "Oliy ta'lim, fan va innovatsiyalar vazirligi huzuridagi Innovatsion rivojlanish agentligi"
+            "company": "Oliy ta'lim, fan va innovatsiyalar vazirligi huzuridagi Innovatsion rivojlanish agentligi",
+            "partner": "Integrum jamoasi"
         },
         "softwhere": {
             "role": "React / React Native dasturchi",

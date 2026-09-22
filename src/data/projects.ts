@@ -64,7 +64,7 @@ export const PROJECTS: Project[] = [
     },
     {
         id: 'innoweek',
-        org: 'integrum',
+        org: 'ida',
         name: 'InnoWeek',
         domain: 'innoweek.uz',
         url: 'https://innoweek.uz',

@@ -64,6 +64,20 @@ function JobCard({ job, index }: { job: Job; index: number }) {
                                 ) : (
                                     <span className="font-medium text-fg">{t(`experience.${job.id}.company`)}</span>
                                 )}
+                                {job.partnerUrl && (
+                                    <>
+                                        <span aria-hidden>·</span>
+                                        <a
+                                            href={job.partnerUrl}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            className="inline-flex items-baseline gap-1 font-medium text-fg hover:text-accent"
+                                        >
+                                            {t(`experience.${job.id}.partner`)}
+                                            <ArrowUpRight size={14} className="shrink-0 self-center" />
+                                        </a>
+                                    </>
+                                )}
                                 <span aria-hidden>·</span>
                                 <span>{t(`experience.${job.id}.type`)}</span>
                             </div>
