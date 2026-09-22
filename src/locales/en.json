@@ -15,8 +15,8 @@
         "available": "Live",
         "title1": "I build fast, accessible frontends",
         "title2": "for web and mobile products.",
-        "lead": "Frontend developer with {{years}} years of commercial experience in React, Next.js, React Native and TypeScript. I own the full path to production: component architecture from Figma, API integration, SSR and SEO, then deployment with Docker, nginx and CI/CD.",
-        "ai": "AI-assisted engineering with Claude Code and MCP is part of my daily workflow.",
+        "lead": "Frontend developer with {{years}} years of commercial experience in React, Next.js, React Native and TypeScript. I take a product the whole way — component architecture from Figma, a typed API layer, SSR and SEO, then Docker, nginx and CI/CD — and stay responsible for it long after it ships.",
+        "ai": "And I build the parts where the AI does the work for the person using it: on the national plagiarism platform, the detector I built shows a reviewer exactly which passages a machine wrote.",
         "ctaProjects": "View projects",
         "ctaResume": "Download resume",
         "stats": {
@@ -83,7 +83,7 @@
                 "Build complex forms with React Hook Form and Zod/Yup (multi-step flows, dynamic fields, draft persistence, unsaved-changes guards) and analytics dashboards with Recharts and Ant Design Charts.",
                 "Deliver SSR and SEO: Next.js App Router and Vite SSR on Express, metadata and Open Graph, sitemaps, Google Analytics, code splitting and lazy loading for a fast first load.",
                 "Own deployment: Docker and Docker Compose, nginx reverse proxy, PM2, CI/CD in GitHub Actions (self-hosted runners inside a closed network) and GitLab CI, separate dev, staging and production environments on Ubuntu servers.",
-                "Introduced an AI-assisted workflow: Claude Code with project rules, skills and MCP integrations for Figma and Linear across triage, planning, implementation and review; built the UI for AI features such as AI-generated text detection."
+                "Built the product side of the AI features — including the AI-text detector that shows a reviewer which passages a machine wrote — and brought an AI-assisted workflow into the team with Claude Code: project rules, skills and MCP integrations for Figma and Linear across triage, planning, implementation and review."
             ]
         },
         "softwhere": {
@@ -124,7 +124,7 @@
         },
         "anticopy": {
             "title": "Plagiarism & AI-text detection",
-            "description": "Uploads a document and highlights borrowed passages and AI-generated text with originality scores. Built the whole UI including the AI-detection report view, on Next.js with Radix and Tailwind."
+            "description": "Upload a document and it marks borrowed passages and machine-written text with originality scores. I built the whole interface, including the AI-detection report that tells a reviewer which sentences came from a model."
         },
         "id": {
             "title": "Single sign-on for the science ecosystem",
@@ -162,7 +162,7 @@
         "architecture": "Architecture",
         "devops": "DevOps",
         "backend": "Backend",
-        "ai": "AI engineering",
+        "ai": "AI products",
         "tools": "Tools"
     },
     "education": {

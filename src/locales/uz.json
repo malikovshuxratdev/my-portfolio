@@ -15,8 +15,8 @@
         "available": "Live",
         "title1": "Veb va mobil mahsulotlar uchun",
         "title2": "tez va qulay frontend quraman.",
-        "lead": "React, Next.js, React Native va TypeScript bo'yicha {{years}} yillik tijoriy tajribaga ega frontend dasturchiman. Production'gacha bo'lgan butun yo'lga javob beraman: Figma'dan komponent arxitekturasi, API integratsiyasi, SSR va SEO, so'ngra Docker, nginx va CI/CD orqali deploy.",
-        "ai": "Claude Code va MCP bilan AI-yordamli dasturlash — kundalik ish jarayonimning bir qismi.",
+        "lead": "React, Next.js, React Native va TypeScript bo'yicha {{years}} yillik tijoriy tajribaga ega frontend dasturchiman. Mahsulotni boshidan oxirigacha olib boraman — Figma'dan komponent arxitekturasi, tiplangan API qatlami, SSR va SEO, so'ngra Docker, nginx va CI/CD — va u ishga tushgandan keyin ham javobgarlikni zimmamda saqlayman.",
+        "ai": "Va men AI foydalanuvchi o'rniga ishlaydigan qismlarni quraman: milliy plagiat platformasida men qurgan detektor taqrizchiga matnning qaysi qismini mashina yozganini aniq ko'rsatadi.",
         "ctaProjects": "Loyihalarni ko'rish",
         "ctaResume": "Rezyumeni yuklab olish",
         "stats": {
@@ -83,7 +83,7 @@
                 "React Hook Form va Zod/Yup bilan murakkab formalar (ko'p bosqichli oqimlar, dinamik maydonlar, qoralamani saqlash, saqlanmagan o'zgarishlar himoyasi) va Recharts hamda Ant Design Charts bilan analitik dashboardlar quraman.",
                 "SSR va SEO: Next.js App Router va Express'dagi Vite SSR, metadata va Open Graph, sitemap, Google Analytics, tez birinchi yuklanish uchun code splitting va lazy loading.",
                 "Deploy'ga to'liq javob beraman: Docker va Docker Compose, nginx reverse proxy, PM2, GitHub Actions (yopiq tarmoqdagi self-hosted runnerlar) va GitLab CI, Ubuntu serverlarda alohida dev, staging va production muhitlari.",
-                "AI-yordamli ish jarayonini joriy qildim: loyiha qoidalari, skill'lar hamda Figma va Linear uchun MCP integratsiyalari bilan Claude Code — triaj, rejalashtirish, amalga oshirish va review bosqichlarida; AI matnini aniqlash kabi AI funksiyalari uchun UI qurdim."
+                "AI funksiyalarining mahsulot tomonini qurdim — jumladan, taqrizchiga matnning qaysi qismini mashina yozganini ko'rsatadigan AI-matn detektorini — hamda jamoaga Claude Code bilan AI-yordamli ish jarayonini olib kirdim: loyiha qoidalari, skill'lar va Figma hamda Linear uchun MCP integratsiyalari, triaj, rejalashtirish, amalga oshirish va review bosqichlarida."
             ]
         },
         "softwhere": {
@@ -124,7 +124,7 @@
         },
         "anticopy": {
             "title": "Plagiat va AI matnini aniqlash",
-            "description": "Hujjatni yuklaydi va o'zlashtirilgan parchalar hamda AI yaratgan matnni originallik ko'rsatkichlari bilan ajratib ko'rsatadi. AI-aniqlash hisoboti ko'rinishi bilan butun UI'ni Next.js, Radix va Tailwind'da qurdim."
+            "description": "Hujjatni yuklaysiz — u o'zlashtirilgan parchalar va mashina yozgan matnni originallik ko'rsatkichlari bilan belgilab beradi. Butun interfeysni qurdim, jumladan taqrizchiga qaysi jumlalar modeldan kelganini aytadigan AI-aniqlash hisobotini."
         },
         "id": {
             "title": "Ilmiy ekotizim uchun yagona kirish",
@@ -162,7 +162,7 @@
         "architecture": "Architecture",
         "devops": "DevOps",
         "backend": "Backend",
-        "ai": "AI engineering",
+        "ai": "AI products",
         "tools": "Tools"
     },
     "education": {
