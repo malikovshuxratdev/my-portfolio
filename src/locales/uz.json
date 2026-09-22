@@ -36,7 +36,7 @@
         "projects": {
             "eyebrow": "Tanlangan ishlar",
             "title": "Production'dagi platformalar",
-            "lead": "O'zbekiston ilm-fan va innovatsiya ekotizimining ochiq portallari, shaxsiy kabinetlari va admin panellari — barchasi bugun ishlamoqda.",
+            "lead": "O'zbekiston ilm-fan va innovatsiya ekotizimining ochiq portallari, shaxsiy kabinetlari va admin panellari — ilmiy.uz platformalari Innovatsion rivojlanish agentligida, qolganlari Integrum jamoasi bilan. Barchasi bugun ishlamoqda.",
             "note": "Bular ulardan eng mashhurlari; umumiy soni 15 tadan ziyod, bundan tashqari har bir portal ortidagi ichki admin panellar ham bor.",
             "visit": "Saytga o'tish",
             "live": "Jonli"
@@ -157,6 +157,10 @@
         "akadem": {
             "title": "Akademik harakatchanlik dasturi",
             "description": "Ilmiy anjumanlar, stajirovkalar va qo'shma loyihalar portali: ishtirok uchun tanlovlar, arizalar hamda saralash va arizachilar bo'yicha ochiq statistika."
+        },
+        "orgs": {
+            "ida": "Innovatsion rivojlanish agentligi",
+            "integrum": "Integrum jamoasi bilan"
         }
     },
     "skills": {

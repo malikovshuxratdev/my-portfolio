@@ -1,6 +1,6 @@
 import { ArrowUpRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import { PROJECTS, type Project } from '@/data/projects';
+import { ORGS, PROJECTS, type Project } from '@/data/projects';
 import { cn } from '@/lib/cn';
 import { Archive } from './Archive';
 import { Reveal } from './Reveal';
@@ -52,6 +52,14 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
                         <div>
                             <h3 className="font-display text-lg font-semibold tracking-tight sm:text-2xl">{project.name}</h3>
                             <p className="mt-1 text-sm font-medium text-accent">{t(`projects.${project.id}.title`)}</p>
+                            <p className="mt-1.5 flex items-center gap-1.5 font-mono text-[11px] text-muted">
+                                <span
+                                    className={cn('h-1.5 w-1.5 rounded-full', project.org === 'ida' ? 'bg-accent' : 'bg-sky-400')}
+                                    aria-hidden
+                                />
+                                {t(`projects.orgs.${project.org}`)}
+                                <span className="text-muted/60">· {ORGS[project.org].url.replace(/^https?:\/\//, '').replace(/\/.*$/, '')}</span>
+                            </p>
                         </div>
                         <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-line text-muted transition-all duration-300 group-hover:border-accent group-hover:bg-accent group-hover:text-accent-fg">
                             <ArrowUpRight size={16} />

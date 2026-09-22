@@ -36,7 +36,7 @@
         "projects": {
             "eyebrow": "Selected work",
             "title": "Platforms in production",
-            "lead": "Public portals, personal cabinets and admin panels of Uzbekistan's science and innovation ecosystem — all live today.",
+            "lead": "Public portals, personal cabinets and admin panels of Uzbekistan's science and innovation ecosystem — the ilmiy.uz platforms at the Innovation Development Agency, the rest delivered with the Integrum team. All live today.",
             "note": "These are the best known of them; the full set runs to more than 15 platforms, plus the internal admin panels behind each portal.",
             "visit": "Visit site",
             "live": "Live"
@@ -157,6 +157,10 @@
         "akadem": {
             "title": "Academic mobility programme",
             "description": "Portal for research conferences, internships and joint projects: calls for participation, applications and public statistics on selections and applicants."
+        },
+        "orgs": {
+            "ida": "Innovation Development Agency",
+            "integrum": "with the Integrum team"
         }
     },
     "skills": {

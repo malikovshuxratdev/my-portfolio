@@ -1,5 +1,14 @@
+export type Org = 'ida' | 'integrum';
+
+export const ORGS: Record<Org, { url: string }> = {
+    ida: { url: 'https://gov.uz/oz/innovation' },
+    integrum: { url: 'https://integrum.uz/' },
+};
+
 export type Project = {
     id: string;
+    /** Who the platform was built with; the ilmiy.uz domains are the agency's own, the rest were delivered with Integrum. */
+    org: Org;
     name: string;
     domain: string;
     url: string;
@@ -12,6 +21,7 @@ export type Project = {
 export const PROJECTS: Project[] = [
     {
         id: 'slib',
+        org: 'integrum',
         name: 'slib.uz',
         domain: 'slib.uz',
         url: 'https://slib.uz',
@@ -22,6 +32,7 @@ export const PROJECTS: Project[] = [
     },
     {
         id: 'anticopy',
+        org: 'integrum',
         name: 'Anticopy',
         domain: 'anticopy.uz',
         url: 'https://anticopy.uz',
@@ -32,6 +43,7 @@ export const PROJECTS: Project[] = [
     },
     {
         id: 'myilmiy',
+        org: 'ida',
         name: 'my.ilmiy.uz',
         domain: 'my.ilmiy.uz',
         url: 'https://my.ilmiy.uz/',
@@ -42,6 +54,7 @@ export const PROJECTS: Project[] = [
     },
     {
         id: 'id',
+        org: 'ida',
         name: 'Science ID',
         domain: 'id.ilmiy.uz',
         url: 'https://id.ilmiy.uz',
@@ -51,6 +64,7 @@ export const PROJECTS: Project[] = [
     },
     {
         id: 'innoweek',
+        org: 'integrum',
         name: 'InnoWeek',
         domain: 'innoweek.uz',
         url: 'https://innoweek.uz',
@@ -60,6 +74,7 @@ export const PROJECTS: Project[] = [
     },
     {
         id: 'tripogram',
+        org: 'integrum',
         name: 'Tripogram',
         domain: 'tripogram.uz',
         url: 'https://tripogram.uz',
@@ -69,6 +84,7 @@ export const PROJECTS: Project[] = [
     },
     {
         id: 'etaqriz',
+        org: 'integrum',
         name: 'E-Taqriz',
         domain: 'etaqriz.uz',
         url: 'https://etaqriz.uz',
@@ -78,6 +94,7 @@ export const PROJECTS: Project[] = [
     },
     {
         id: 'internship',
+        org: 'ida',
         name: 'Research Internships',
         domain: 'internship.ilmiy.uz',
         url: 'https://internship.ilmiy.uz',
@@ -87,6 +104,7 @@ export const PROJECTS: Project[] = [
     },
     {
         id: 'akadem',
+        org: 'ida',
         name: 'Academic Mobility',
         domain: 'akadem.ilmiy.uz',
         url: 'https://akadem.ilmiy.uz',
