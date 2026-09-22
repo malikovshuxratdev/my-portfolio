@@ -15,8 +15,8 @@
         "available": "Live",
         "title1": "I build fast, accessible frontends",
         "title2": "for web and mobile products.",
-        "lead": "Frontend developer with {{years}} years of commercial experience in React, Next.js, React Native and TypeScript. I take a product the whole way — component architecture from Figma, a typed API layer, SSR and SEO, then Docker, nginx and CI/CD — and stay responsible for it long after it ships.",
-        "ai": "And I build the parts where the AI does the work for the person using it: on the national plagiarism platform, the detector I built shows a reviewer exactly which passages a machine wrote.",
+        "lead": "Frontend developer with {{years}} years of commercial experience in React, Next.js, React Native and TypeScript. I own the full path to production: component architecture from Figma, API integration, SSR and SEO, then deployment with Docker, nginx and CI/CD.",
+        "ai": "Working with AI agents and MCP is part of my daily workflow — and I build the interfaces where AI does the work for the user, like the AI-text detector on the national plagiarism platform.",
         "ctaProjects": "View projects",
         "ctaResume": "Download resume",
         "stats": {
@@ -75,7 +75,7 @@
         "ida": {
             "role": "Frontend Developer",
             "type": "Full-time · Offline",
-            "summary": "Government agency under the Ministry of Higher Education, Science and Innovation. Frontend of the national science and innovation ecosystem (ilmiy.uz): public portals, personal cabinets and admin panels for researchers, universities and state bodies.",
+            "summary": "The agency under the Ministry of Higher Education, Science and Innovation. Frontend of the national science and innovation ecosystem (ilmiy.uz): public portals, personal cabinets and admin panels for researchers, universities and state bodies.",
             "bullets": [
                 "Build and maintain the frontends of 15+ production platforms with React, Next.js and TypeScript, from project setup and architecture to release and support.",
                 "Turn Figma designs into responsive, accessible, multilingual interfaces; built shared component libraries on shadcn/ui, Radix UI, Ant Design and Tailwind CSS with design tokens, so new pages are assembled from ready blocks.",
@@ -83,8 +83,9 @@
                 "Build complex forms with React Hook Form and Zod/Yup (multi-step flows, dynamic fields, draft persistence, unsaved-changes guards) and analytics dashboards with Recharts and Ant Design Charts.",
                 "Deliver SSR and SEO: Next.js App Router and Vite SSR on Express, metadata and Open Graph, sitemaps, Google Analytics, code splitting and lazy loading for a fast first load.",
                 "Own deployment: Docker and Docker Compose, nginx reverse proxy, PM2, CI/CD in GitHub Actions (self-hosted runners inside a closed network) and GitLab CI, separate dev, staging and production environments on Ubuntu servers.",
-                "Built the product side of the AI features — including the AI-text detector that shows a reviewer which passages a machine wrote — and brought an AI-assisted workflow into the team with Claude Code: project rules, skills and MCP integrations for Figma and Linear across triage, planning, implementation and review."
-            ]
+                "Built the product side of the AI features, including the AI-text detector that shows a reviewer which passages a machine wrote; and brought AI agents into the team's workflow — project rules, agent skills and MCP integrations for Figma and Linear across triage, planning, implementation and review."
+            ],
+            "company": "Innovation Development Agency under the Ministry of Higher Education, Science and Innovation"
         },
         "softwhere": {
             "role": "React / React Native Developer",
@@ -95,7 +96,8 @@
                 "Delivered CRUD features end to end against the backend API using React Query, Redux Toolkit and MobX; added real-time updates over WebSocket.",
                 "Worked with the backend team to stabilise the API contract, which made frontend integration faster and more predictable.",
                 "Fixed critical design, functionality and performance bugs and tested every release, shortening the path to production."
-            ]
+            ],
+            "company": "Softwhere"
         },
         "empire": {
             "role": "React / React Native Developer",
@@ -106,7 +108,8 @@
                 "Designed the project structure and set up ESLint rules to keep the codebase clean and maintainable.",
                 "Built reusable UI components and state management with React, Redux Toolkit and MobX.",
                 "Proposed new features, took part in planning and technical decisions, and resolved bugs to keep shopping smooth for users."
-            ]
+            ],
+            "company": "Empire Soft"
         }
     },
     "projects": {
@@ -116,7 +119,12 @@
             "sso": "Single sign-on",
             "ai": "AI detection",
             "event": "Event platform",
-            "booking": "Online booking"
+            "booking": "Online booking",
+            "cabinet": "Personal cabinet"
+        },
+        "myilmiy": {
+            "title": "Single personal cabinet for researchers",
+            "description": "One account, one place: apply for postgraduate study, foreign internships and academic mobility, file to the inventions registry, enter commercialisation contests and state science programmes — with every open call in a single feed."
         },
         "slib": {
             "title": "National scientific e-library",

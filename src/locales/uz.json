@@ -15,8 +15,8 @@
         "available": "Live",
         "title1": "Veb va mobil mahsulotlar uchun",
         "title2": "tez va qulay frontend quraman.",
-        "lead": "React, Next.js, React Native va TypeScript bo'yicha {{years}} yillik tijoriy tajribaga ega frontend dasturchiman. Mahsulotni boshidan oxirigacha olib boraman — Figma'dan komponent arxitekturasi, tiplangan API qatlami, SSR va SEO, so'ngra Docker, nginx va CI/CD — va u ishga tushgandan keyin ham javobgarlikni zimmamda saqlayman.",
-        "ai": "Va men AI foydalanuvchi o'rniga ishlaydigan qismlarni quraman: milliy plagiat platformasida men qurgan detektor taqrizchiga matnning qaysi qismini mashina yozganini aniq ko'rsatadi.",
+        "lead": "React, Next.js, React Native va TypeScript bo'yicha {{years}} yillik tijoriy tajribaga ega frontend dasturchiman. Production'gacha bo'lgan butun yo'lga javob beraman: Figma'dan komponent arxitekturasi, API integratsiyasi, SSR va SEO, so'ngra Docker, nginx va CI/CD orqali deploy.",
+        "ai": "AI agentlar va MCP bilan ishlash — kundalik ish jarayonimning bir qismi. Shu bilan birga AI foydalanuvchi o'rniga ishlaydigan interfeyslarni quraman: milliy plagiat platformasidagi AI-matn detektori shulardan biri.",
         "ctaProjects": "Loyihalarni ko'rish",
         "ctaResume": "Rezyumeni yuklab olish",
         "stats": {
@@ -75,7 +75,7 @@
         "ida": {
             "role": "Frontend dasturchi",
             "type": "To'liq stavka · Offline",
-            "summary": "Oliy ta'lim, fan va innovatsiyalar vazirligi huzuridagi davlat agentligi. Milliy ilm-fan va innovatsiya ekotizimi (ilmiy.uz) frontendi: tadqiqotchilar, universitetlar va davlat organlari uchun ochiq portallar, shaxsiy kabinetlar va admin panellar.",
+            "summary": "Oliy ta'lim, fan va innovatsiyalar vazirligi huzuridagi agentlik. Milliy ilm-fan va innovatsiya ekotizimi (ilmiy.uz) frontendi: tadqiqotchilar, universitetlar va davlat organlari uchun ochiq portallar, shaxsiy kabinetlar va admin panellar.",
             "bullets": [
                 "React, Next.js va TypeScript'da 15+ production platformaning frontendini quraman va qo'llab-quvvatlayman — loyiha sozlash va arxitekturadan relizgacha.",
                 "Figma dizaynlarini moslashuvchan, a11y va ko'p tilli interfeyslarga aylantiraman; shadcn/ui, Radix UI, Ant Design va Tailwind CSS asosida dizayn tokenlari bilan umumiy komponent kutubxonalari qurdim — yangi sahifalar tayyor bloklardan yig'iladi.",
@@ -83,8 +83,9 @@
                 "React Hook Form va Zod/Yup bilan murakkab formalar (ko'p bosqichli oqimlar, dinamik maydonlar, qoralamani saqlash, saqlanmagan o'zgarishlar himoyasi) va Recharts hamda Ant Design Charts bilan analitik dashboardlar quraman.",
                 "SSR va SEO: Next.js App Router va Express'dagi Vite SSR, metadata va Open Graph, sitemap, Google Analytics, tez birinchi yuklanish uchun code splitting va lazy loading.",
                 "Deploy'ga to'liq javob beraman: Docker va Docker Compose, nginx reverse proxy, PM2, GitHub Actions (yopiq tarmoqdagi self-hosted runnerlar) va GitLab CI, Ubuntu serverlarda alohida dev, staging va production muhitlari.",
-                "AI funksiyalarining mahsulot tomonini qurdim — jumladan, taqrizchiga matnning qaysi qismini mashina yozganini ko'rsatadigan AI-matn detektorini — hamda jamoaga Claude Code bilan AI-yordamli ish jarayonini olib kirdim: loyiha qoidalari, skill'lar va Figma hamda Linear uchun MCP integratsiyalari, triaj, rejalashtirish, amalga oshirish va review bosqichlarida."
-            ]
+                "AI funksiyalarining mahsulot tomonini qurdim — jumladan, taqrizchiga matnning qaysi qismini mashina yozganini ko'rsatadigan AI-matn detektorini; hamda jamoaning ish jarayoniga AI agentlarni olib kirdim: loyiha qoidalari, agent skill'lari va Figma hamda Linear uchun MCP integratsiyalari, triaj, rejalashtirish, amalga oshirish va review bosqichlarida."
+            ],
+            "company": "Oliy ta'lim, fan va innovatsiyalar vazirligi huzuridagi Innovatsion rivojlanish agentligi"
         },
         "softwhere": {
             "role": "React / React Native dasturchi",
@@ -95,7 +96,8 @@
                 "React Query, Redux Toolkit va MobX yordamida backend API bilan CRUD funksiyalarni boshidan oxirigacha yetkazdim; WebSocket orqali real vaqt yangilanishlarini qo'shdim.",
                 "Backend jamoasi bilan API shartnomasini barqarorlashtirdim — frontend integratsiyasi tezroq va bashorat qilinadigan bo'ldi.",
                 "Dizayn, funksionallik va unumdorlik bo'yicha kritik xatolarni tuzatdim va har bir relizni sinovdan o'tkazdim — production'ga yo'l qisqardi."
-            ]
+            ],
+            "company": "Softwhere"
         },
         "empire": {
             "role": "React / React Native dasturchi",
@@ -106,7 +108,8 @@
                 "Kod bazasi toza va qo'llab-quvvatlanadigan bo'lishi uchun loyiha tuzilmasini loyihaladim va ESLint qoidalarini sozladim.",
                 "React, Redux Toolkit va MobX bilan qayta ishlatiladigan UI komponentlar va holat boshqaruvini qurdim.",
                 "Yangi funksiyalarni taklif qildim, rejalashtirish va texnik qarorlarda ishtirok etdim, foydalanuvchilar uchun xaridni silliq saqlash uchun xatolarni bartaraf etdim."
-            ]
+            ],
+            "company": "Empire Soft"
         }
     },
     "projects": {
@@ -116,7 +119,12 @@
             "sso": "Yagona kirish",
             "ai": "AI aniqlash",
             "event": "Tadbir platformasi",
-            "booking": "Onlayn bron"
+            "booking": "Onlayn bron",
+            "cabinet": "Shaxsiy kabinet"
+        },
+        "myilmiy": {
+            "title": "Tadqiqotchilar uchun yagona shaxsiy kabinet",
+            "description": "Bitta akkaunt, bitta joy: oliy ta'limdan keyingi ta'limga hujjat topshirish, xorijiy stajirovkalar va akademik harakatchanlik, ixtirolar reyestriga ariza, tijoratlashtirish hamda davlat ilmiy dasturlari tanlovlari — barcha faol tanlovlar bitta oqimda."
         },
         "slib": {
             "title": "Milliy ilmiy elektron kutubxona",

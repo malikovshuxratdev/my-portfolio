@@ -56,12 +56,13 @@ function JobCard({ job, index }: { job: Job; index: number }) {
                                         href={job.url}
                                         target="_blank"
                                         rel="noreferrer"
-                                        className="inline-flex items-center gap-1 font-medium text-fg hover:text-accent"
+                                        className="inline-flex items-baseline gap-1 font-medium text-fg hover:text-accent"
                                     >
-                                        {job.company} <ArrowUpRight size={14} />
+                                        {t(`experience.${job.id}.company`)}
+                                        <ArrowUpRight size={14} className="shrink-0 self-center" />
                                     </a>
                                 ) : (
-                                    <span className="font-medium text-fg">{job.company}</span>
+                                    <span className="font-medium text-fg">{t(`experience.${job.id}.company`)}</span>
                                 )}
                                 <span aria-hidden>·</span>
                                 <span>{t(`experience.${job.id}.type`)}</span>

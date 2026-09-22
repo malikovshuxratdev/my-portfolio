@@ -4,12 +4,22 @@ export type Project = {
     domain: string;
     url: string;
     image: string;
-    kind: 'web' | 'ssr' | 'sso' | 'ai' | 'event' | 'booking';
+    kind: 'web' | 'ssr' | 'sso' | 'ai' | 'event' | 'booking' | 'cabinet';
     stack: string[];
     featured?: boolean;
 };
 
 export const PROJECTS: Project[] = [
+    {
+        id: 'myilmiy',
+        name: 'my.ilmiy.uz',
+        domain: 'my.ilmiy.uz',
+        url: 'https://my.ilmiy.uz/',
+        image: '/projects/my-ilmiy.webp',
+        kind: 'cabinet',
+        featured: true,
+        stack: ['Next.js App Router', 'TypeScript', 'SSR', 'Ant Design', 'Tailwind CSS', 'i18n routing'],
+    },
     {
         id: 'slib',
         name: 'slib.uz',

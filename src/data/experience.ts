@@ -11,7 +11,7 @@ export const EXPERIENCE: Experience[] = [
     {
         id: 'ida',
         company: 'Innovation Development Agency',
-        url: 'https://ilmiy.uz',
+        url: 'https://gov.uz/oz/innovation',
         start: '2025-02',
         end: null,
         stack: [

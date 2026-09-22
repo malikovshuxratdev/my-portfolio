@@ -37,7 +37,7 @@ export const SKILLS: SkillGroup[] = [
     { id: 'backend', items: ['Python', 'Django', 'FastAPI', 'Go', 'Node.js (Express)', 'PostgreSQL', 'Redis'] },
     {
         id: 'ai',
-        items: ['UI for LLM-powered features', 'AI text-detection UI', 'Prompt engineering', 'Claude Code', 'Skills & plugins', 'CLAUDE.md rules', 'MCP (Figma, Linear)', 'AI-assisted review'],
+        items: ['UI for LLM-powered features', 'AI text-detection UI', 'Prompt engineering', 'AI agents', 'Agent skills & plugins', 'Project rules', 'MCP (Figma, Linear)', 'Agent-assisted review'],
     },
     { id: 'tools', items: ['Git', 'GitHub', 'GitLab', 'Figma (Dev Mode)', 'Linear', 'VS Code', 'npm · yarn · pnpm'] },
 ];
