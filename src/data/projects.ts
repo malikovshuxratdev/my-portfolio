@@ -11,16 +11,6 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
     {
-        id: 'myilmiy',
-        name: 'my.ilmiy.uz',
-        domain: 'my.ilmiy.uz',
-        url: 'https://my.ilmiy.uz/',
-        image: '/projects/my-ilmiy.webp',
-        kind: 'cabinet',
-        featured: true,
-        stack: ['Next.js App Router', 'TypeScript', 'SSR', 'Ant Design', 'Tailwind CSS', 'i18n routing'],
-    },
-    {
         id: 'slib',
         name: 'slib.uz',
         domain: 'slib.uz',
@@ -39,6 +29,16 @@ export const PROJECTS: Project[] = [
         kind: 'ai',
         featured: true,
         stack: ['Next.js', 'TypeScript', 'Radix UI', 'Tailwind CSS', 'TanStack Query', 'Redux Toolkit', 'React Hook Form', 'Zod', 'Motion'],
+    },
+    {
+        id: 'myilmiy',
+        name: 'my.ilmiy.uz',
+        domain: 'my.ilmiy.uz',
+        url: 'https://my.ilmiy.uz/',
+        image: '/projects/my-ilmiy.webp',
+        kind: 'cabinet',
+        featured: true,
+        stack: ['Next.js App Router', 'TypeScript', 'SSR', 'Ant Design', 'Tailwind CSS', 'i18n routing'],
     },
     {
         id: 'id',
